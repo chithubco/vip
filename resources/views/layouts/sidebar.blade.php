@@ -9,18 +9,18 @@
             </div>
             @else
              <div>
-                <img class="center-block img-responsive" src="{{$user->profile_picture_path}}" alt="profile pix" width="100px" height="100px"/>
+                <img class="center-block img-responsive img-circle" src="{{$user->profile_picture_path}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
              </div>
              @endif
-             <hr/>
+             <br/>
               <li class="@yield('dashboard_active')">
-                  <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                  <a href="{{route('user_dashboard')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
               </li>
               <li class="@yield('profile_active')">
                   <a href="{{route('user_profile')}}"><i class="fa fa-user"></i> Update Profile</a>
               </li>
-              <li class="@yield('profile_active')">
-                  <a href="{{route('express_interest')}}"><i class="fa fa-user"></i>Expression of Interest </a>
+              <li class="@yield('express_interest')">
+                  <a href="{{route('express_interest')}}"><i class="fa fa-folder"></i>Expression of Interest </a>
               </li>
           </ul>
       </div>

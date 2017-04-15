@@ -26,4 +26,8 @@ class User extends \Cartalyst\Sentinel\Users\EloquentUser
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function eoi(){
+      $this->hasOne('App\ExpressionOfInterest');
+    }
 }

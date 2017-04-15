@@ -29,7 +29,8 @@ Route::group(['prefix' => 'personal'], function () {
     Route::get('/', 'UserController@index')->name('user_dashboard');
     Route::get('/profile', 'UserController@profile')->name('user_profile');
     Route::post('/update/profile', 'UserController@updateProfile')->name('update_profile');
-    Route::get('/express/interest', 'UserController@interest')->name('express_interest');
+    Route::get('/express/interest', 'ExpressionOfInterestController@create')->name('express_interest');
+    Route::post('/express/interest', 'ExpressionOfInterestController@store')->name('save_express_interest');
 });
 
 Route::group(['prefix' => 'admin'], function () {

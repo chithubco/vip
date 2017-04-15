@@ -32,8 +32,4 @@ class UserController extends Controller
               ->with('error', 'Profile update was not Successful. Try Again!!!');
     }
   }
-
-  public function interest(){
-    return 5;
-  }
 }

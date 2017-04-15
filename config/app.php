@@ -176,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+ 				App\Providers\ExpressionOfInterestServiceProvider::class,
  				App\Providers\AdminServiceProvider::class,
 
         //Laravel collective
