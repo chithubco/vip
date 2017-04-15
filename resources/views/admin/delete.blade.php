@@ -7,7 +7,7 @@
                     <h4 class="modal-title" id="myModalLabel">Delete User?</h4>
                 </div>
                 <div class="modal-body">
-                    <p class="s-text">Remove {{$user->first_name}} {{$user->first_name}} from your list of users? </br><span class="p-text">This cannot be undone.</span></p>
+                    <p class="s-text">Remove {{$user->first_name}} {{$user->last_name}} from your list of users? </br><span class="p-text">This cannot be undone.</span></p>
                 </div>
                 <div class="modal-footer">
                     <a href="{{route('delete_user', $user->id)}}" class="btn btn-fill btn-danger pull-right">Delete</a>
