@@ -1,0 +1,85 @@
+<?php
+
+namespace App\Repositories\Admin;
+use App\Repositories\Admin\AdminContract;
+use Cartalyst\Sentinel\Laravel\Facades\Sentinel;
+use DB;
+
+class EloquentAdminRepository implements AdminContract
+{
+  public function createUser($request){
+
+        $userDetails = [
+            'phone_no' => $request->phone_number,
+            'email' => $request->email,
+            'password' => $request->password,
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+
+        ];
+
+        $user = Sentinel::registerAndActivate($userDetails, true);
+        $role = Sentinel::findRoleBySlug('user');
+        $role->users()->attach($user);
+        return $user;
+    }
+
+    public function edit($request, $id){
+      $user = Sentinel::findById($id);
+      $credentials = [
+          'first_name' => $request->first_name,
+          'last_name' => $request->last_name,
+          'phone_no' => $request->phone_number,
+          'email' => $request->email,
+      ];
+
+      $user = Sentinel::update($user, $credentials);
+      return $user;
+    }
+
+    public function updateUserProfile($request){
+        $destination = 'uploads/profile';
+        $extension = $request->file('profile_picture_path')->getClientOriginalExtension();
+        $fileName = rand(1111111, 9999999).'.'.$extension;
+        $request->file('profile_picture_path')->move($destination, $fileName);
+      $user = Sentinel::getUser();
+      $credentials = [
+          'first_name' => $request->first_name,
+          'last_name' => $request->last_name,
+          'phone_no' => $request->phone_no,
+          'email' => $request->email,
+          'address' => $request->address,
+          'profile_picture_path' => '/'.$destination.'/'.$fileName,
+      ];
+      $user = Sentinel::update($user, $credentials);
+      return $user;
+    }
+
+    public function allUsers(){
+      // dd(Sentinel::findById(1)->roles()->get());
+      $role = Sentinel::findRoleBySlug('user');
+      // or findRoleBySlug('admin'); for example
+      $users = $role->users()->with('roles')->get();
+      return $users;
+    }
+
+    public function discardUser($id){
+      $user = Sentinel::findById($id);
+      $user->delete();
+      return true;
+    }
+
+    public function deactivateUser($id){
+      $user = Sentinel::findById($id);
+      $user->status = 1;
+      $user->save();
+      return $user;
+    }
+
+    public function activateUser($id){
+      $user = Sentinel::findById($id);
+      $user->status = 0;
+      $user->save();
+      return $user;
+    }
+}
