@@ -5,11 +5,11 @@
           <ul class="nav navbar-nav side-nav">
             @if($user->profile_picture_path == null)
             <div>
-               <img class="center-block img-responsive img-circle" src="{{asset('images/avatar.png')}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
+               <img class="center-block img-responsive img-thumbnail" src="{{asset('images/avatar.png')}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
             </div>
             @else
              <div>
-                <img class="center-block img-responsive img-circle" src="{{$user->profile_picture_path}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
+                <img class="center-block img-responsive img-thumbnail" src="{{$user->profile_picture_path}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
              </div>
              @endif
              <br/>
@@ -21,6 +21,9 @@
               </li>
               <li class="@yield('express_interest')">
                   <a href="{{route('express_interest')}}"><i class="fa fa-folder"></i>Expression of Interest </a>
+              </li>
+              <li>
+                  <a href="{{route('express_interest')}}"><i class="fa fa-folder"></i>VIP Registration </a>
               </li>
           </ul>
       </div>
