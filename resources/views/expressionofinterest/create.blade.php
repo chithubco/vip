@@ -76,6 +76,8 @@
                                       </div>
                                   </div>
                                 </div>
+                                <small>If you need to make changes to the information above, <a href="{{route('update_profile')}}">update</a> your profile.</small>
+                                <hr/>
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
