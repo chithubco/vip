@@ -33,6 +33,9 @@ class ExpressionOfInterestController extends Controller
     public function create()
     {
         $user = Sentinel::getUser();
+				if($user == null){
+					return redirect()->route('home');
+				}
 				$eoi = $this->repo->findUser($user->id);
 				return view('expressionofinterest.create')->with('user', $user)->with('eoi', $eoi);
     }

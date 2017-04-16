@@ -23,8 +23,10 @@ class AdminController extends Controller
      */
     public function index()
     {
+			$role = Sentinel::findRoleBySlug('user');
+			$numOfUsers = $role->users()->count();
 			  $user = Sentinel::getUser();
-        return view('admin.index')->with('user', $user);
+        return view('admin.index')->with('user', $user)->with('numOfUsers', $numOfUsers);
     }
 
     /**
@@ -73,6 +75,9 @@ class AdminController extends Controller
     public function getUsers()
     {
 			  $user = Sentinel::getUser();
+				if($user == null){
+					return redirect()->route('home');
+				}
         $users = $this->repo->allUsers();
 				return view('admin.users')->with('users', $users)->with('user', $user);
     }

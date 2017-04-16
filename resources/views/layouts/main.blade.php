@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="CharityFund - Charity & Crowdfunding" />
+    <meta name="keywords" content="Vicampro-vip, Agriculture" />
+    <meta name="author" content="Vicampro" />
 
     <title>Vicampro-vip</title>
 
@@ -39,7 +41,7 @@
 
 <body>
   <div id="wrapper">
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       @yield('navbar')
       @include('layouts.sidebar')
       <!-- /.navbar-collapse -->

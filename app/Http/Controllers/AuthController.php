@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
+  public function index(){
+    return view('index');
+  }
    public function getLogin(){
      return view('login');
    }
@@ -51,7 +54,7 @@ class AuthController extends Controller
 
 
             } catch (BadMethodCallException $e) {
-                return redirect()->route('login')
+                return redirect()->route('home')
                         ->with('error', 'Your Session has expired. Please login again!');
             }
         }
@@ -65,11 +68,11 @@ class AuthController extends Controller
         try {
             Sentinel::logout(null, true);
             session()->flush();
-            return redirect()->route('get_login');
+            return redirect()->route('home');
         } catch (\Cartalyst\Sentinel\Checkpoints\NotActivatedException $e) {
-            return redirect()->route('get_login');
+            return redirect()->route('home');
         } catch (\ErrorException $e) {
-            return redirect()->route('login')
+            return redirect()->route('home')
                 ->with('error', 'Session expired. Login again!');
         }
     }

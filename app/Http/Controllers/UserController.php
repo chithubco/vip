@@ -13,11 +13,17 @@ class UserController extends Controller
   }
   public function index(){
     $user = Sentinel::getUser();
+    if($user == null){
+      return redirect()->route('home');
+    }
     return view('user.index')->with('user', $user);
   }
 
   public function profile(){
     $user = Sentinel::getUser();
+    if($user == null){
+      return redirect()->route('home');
+    }
     return view('user.profile')->with('user', $user);
   }
 
