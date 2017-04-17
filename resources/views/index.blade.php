@@ -521,7 +521,7 @@
           </div>
           <div class="col-md-5">
             <div class="fluid-video-wrapper">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/0-uWsxomdiU" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Nmce9eCo3CE&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
             </div>
             <h4 class="mt-20 mb-5">Our Mission</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatibus neque, assumenda maxime. Eaque libero unde corrupti deleniti maxime ratione doloremque suscipit perferendis aperiam labore debitis atque odit neque possimus optio quo.</p>
