@@ -18,7 +18,6 @@
               font-size: 16px;
             }
 
-            /* Reset top and bottom margins from certain elements */
             .login-header,
             .login p {
               margin-top: 0;
