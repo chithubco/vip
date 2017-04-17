@@ -40,7 +40,7 @@
 <link  href="{{asset('js/revolution-slider/css/navigation.css')}}" rel="stylesheet" type="text/css"/>
 
 <!-- CSS | Theme Color -->
-<link href="{{asset('css/colors/theme-skin-green.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('css/colors/theme-skin-red.css')}}" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="{{asset('js/jquery-2.2.0.min.js')}}"></script>
