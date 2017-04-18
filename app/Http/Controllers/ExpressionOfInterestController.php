@@ -49,7 +49,7 @@ class ExpressionOfInterestController extends Controller
     public function store(Request $request)
     {
        $this->validate($request, [
-				 'number_of_hectares' => 'required',
+				 'number_of_hectares' => 'required|numeric',
 				 'proposed_subscription_date' => 'required',
 				 'postal_address' => 'required',
 				 'occupation' => 'required',
@@ -86,7 +86,7 @@ class ExpressionOfInterestController extends Controller
     public function edit(Request $request, $id)
     {
 			$this->validate($request, [
-			 'number_of_hectares' => 'required',
+			 'number_of_hectares' => 'required|numeric',
 			 'proposed_subscription_date' => 'required',
 			 'postal_address' => 'required',
 			 'occupation' => 'required',
