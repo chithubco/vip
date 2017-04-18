@@ -485,7 +485,7 @@
                     <div class="bg-theme-colored font-24 text-white p-15 mt-15">VIP-PREMIUM</span></div>
                   </div>
                   <ul class="table-list text-center bg-lightest">
-                    <li><i class="icon_check"></i><span class="font-13">11-100<span class="hidden-xs">(ha) Land Allocation</span></span></li>
+                    <li><i class="icon_check"></i><span class="font-13">11-100<span class="hidden-lg hidden-md hidden-sm">(ha) Land Allocation</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">300M<span class="hidden-lg hidden-md hidden-sm">(N) Maximum Investment</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">12<span class="hidden-lg hidden-md hidden-sm">(Months) Tenure</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">35<span class="hidden-lg hidden-md hidden-sm">(%) Expected Roi-Interest</span></span></li>
@@ -500,7 +500,7 @@
                     <div class="bg-theme-colored font-24 text-white p-15 mt-15">VIP-PLATINUM</span></div>
                   </div>
                   <ul class="table-list text-center bg-lightest">
-                    <li><i class="icon_check"></i><span class="font-13">101-1000<span class="hidden-xs">(ha) Land Allocation</span></span></li>
+                    <li><i class="icon_check"></i><span class="font-13">101-1000<span class="hidden-lg hidden-md hidden-sm">(ha) Land Allocation</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">3B<span class="hidden-lg hidden-md hidden-sm">(N) Maximum Investment</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">12<span class="hidden-lg hidden-md hidden-sm">(Months) Tenure</span></span></li>
                     <li><i class="icon_check"></i><span class="font-13">40<span class="hidden-lg hidden-md hidden-sm">(%) Expected Roi-Interest</span></span></li>
