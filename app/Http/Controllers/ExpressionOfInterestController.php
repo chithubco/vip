@@ -83,10 +83,24 @@ class ExpressionOfInterestController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Request $request, $id)
     {
-        //
-    }
+			$this->validate($request, [
+			 'number_of_hectares' => 'required',
+			 'proposed_subscription_date' => 'required',
+			 'postal_address' => 'required',
+			 'occupation' => 'required',
+		 ]);
+		 $eoi = $this->repo->edit($request, $id);
+		 if($eoi){
+			 return redirect()->back()
+							 ->with('success', 'Interest form updated successfully');
+			 }else{
+				 		return back()
+								 ->withInput()
+								 ->with('error', 'Interest form submission was not updated. Try Again!!!');
+			 			 }
+	    }
 
     /**
      * Update the specified resource in storage.
