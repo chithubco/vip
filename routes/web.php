@@ -28,6 +28,8 @@ Route::group(['prefix' => 'personal'], function () {
     Route::get('/express/interest', 'ExpressionOfInterestController@create')->name('express_interest');
     Route::post('/express/interest', 'ExpressionOfInterestController@store')->name('save_express_interest');
     Route::post('/edit/interest/{id}', 'ExpressionOfInterestController@edit')->name('update_interest');
+    Route::get('/registration', 'RegistrationController@index')->name('registration');
+    Route::post('/registration', 'RegistrationController@store')->name('save_registration');
 });
 
 Route::group(['prefix' => 'admin'], function () {

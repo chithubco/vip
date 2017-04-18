@@ -36,6 +36,7 @@
 
 <!-- CSS | Theme Color -->
 <link href="{{asset('css/colors/theme-skin-red.css')}}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{asset('tel/build/css/intlTelInput.css')}}">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -116,8 +117,8 @@
                   </div>
                   <div class="row">
                     <div class="form-group col-md-12">
-                      <label>Phone Number</label>
-                      <input id="form_email" name="phone_number" class="form-control" type="text">
+                      <label>Phone Number</label> <br/>
+                      <input id="demo" name="phone_number" class="form-control" type="tel">
                     </div>
                   </div>
                   <div class="row">
@@ -207,6 +208,9 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="{{asset('js/jquery-plugin-collection.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
+<script src="{{asset('tel/build/js/intlTelInput.min.js')}}"></script>
+<script> $("#demo").intlTelInput();
+ </script>
 
 </body>
 </html>
