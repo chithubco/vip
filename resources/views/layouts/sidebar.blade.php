@@ -39,6 +39,7 @@
               <img class="center-block img-responsive img-thumbnail" src="{{$user->profile_picture_path}}" alt="profile pix" width="100px" height="100px" style="margin-top:20px;"/>
            </div>
            @endif
+           <br/>
             <li class="@yield('dashboard_active')">
                 <a href="{{route('admin_dashboard')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
             </li>
@@ -48,9 +49,9 @@
                     <li>
                         <a href="{{route('all_users')}}">View Users</a>
                     </li>
-                    <!-- <li>
-                        <a href="#">Dropdown Item</a>
-                    </li> -->
+                    <li>
+                        <a href="{{route('users_interest')}}">Expression Of interest</a>
+                    </li>
                 </ul>
             </li>
         </ul>

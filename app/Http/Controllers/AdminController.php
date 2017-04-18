@@ -4,16 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Repositories\Admin\AdminContract;
+use App\Repositories\ExpressionOfInterest\ExpressionOfInterestContract;
 use Cartalyst\Sentinel\Laravel\Facades\Sentinel;
+use DB;
 
 
 class AdminController extends Controller
 {
 
 		protected $repo;
+		protected $eoiRepo;
 
-		public function __construct(AdminContract $adminContract) {
+		public function __construct(AdminContract $adminContract, ExpressionOfInterestContract $eoi) {
 			$this->repo = $adminContract;
+			$this->eoiRepo = $eoi;
 		}
 
     /**
@@ -170,5 +174,12 @@ class AdminController extends Controller
 				return back()
 									->with('error', 'There was an error during activatiion, Try again!!!');
 			}
+		}
+
+		public function usersInterest(){
+			$user = Sentinel::getUser();
+			$users = DB::table('users')->get();
+			$eois = $this->eoiRepo->findAll();
+			return view('admin.users_interest')->with('eois', $eois)->with('users', $users)->with('user', $user);
 		}
 }
