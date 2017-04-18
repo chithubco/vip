@@ -37,4 +37,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/delete/user/{id}', 'AdminController@deleteUser')->name('delete_user');
     Route::get('/deactivate/user/{id}', 'AdminController@deactivateUser')->name('deactivate_user');
     Route::get('/activate/user/{id}', 'AdminController@activateUser')->name('activate_user');
+    Route::get('/users/interest', 'AdminController@usersInterest')->name('users_interest');
 });
