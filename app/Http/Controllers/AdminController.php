@@ -42,8 +42,20 @@ class AdminController extends Controller
           	'phone_number' => 'required',
           	'email' => 'required',
 						'password' => 'required',
+						'confirm_email' => 'required',
+						'confirm_password' => 'required',
 
       	]);
+				if($request->email != $request->confirm_email) {
+					return back()
+								->withInput()
+								->with('error', 'Email does not match. Try Again!!!');
+				}
+				if($request->password != $request->confirm_password) {
+					return back()
+								->withInput()
+								->with('error', 'Password does not match. Try Again!!!');
+				}
       	$user = $this->repo->createUser($request);
 				if($user->id){
 					return redirect()->back()
