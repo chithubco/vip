@@ -98,7 +98,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label"> Proosed Subscription Date </label>
-                                            <input class="form-control" name="proposed_subscription_date" type="date" value="{{old('proposed_subscription_date')}}"/>
+                                            <input id="datepicker" class="form-control" name="proposed_subscription_date" value="{{old('proposed_subscription_date')}}"/>
                                         </div>
                                     </div>
                                 </div>

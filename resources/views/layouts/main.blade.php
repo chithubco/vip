@@ -25,6 +25,8 @@
     <!-- Custom Fonts -->
     <link href="{{asset('/template/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,6 +63,12 @@
     <script src="{{asset('template/js/plugins/morris/raphael.min.js')}}"></script>
     <script src="{{asset('template/js/plugins/morris/morris.min.js')}}"></script>
     <script src="{{asset('template/js/plugins/morris/morris-data.js')}}"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+    $(function() {
+      $( "#datepicker" ).datepicker();
+    });
+    </script>
     @yield('script')
 
 </body>
