@@ -27,4 +27,15 @@ class EloquentExpressionOfInterestRepository implements ExpressionOfInterestCont
   public function findUser($id){
     return ExpressionOfInterest::where('user_id', $id)->first();
   }
+
+
+  public function edit($request, $id){
+    $eoi = ExpressionOfInterest::find($id);
+    $eoi->number_of_hectares = $request->number_of_hectares;
+    $eoi->proposed_subscription_date = $request->proposed_subscription_date;
+    $eoi->postal_address = $request->postal_address;
+    $eoi->occupation = $request->occupation;
+    $eoi->save();
+    return $eoi;
+  }
 }
