@@ -16,6 +16,10 @@
           <i class="fa fa-info-circle"></i>  <strong>You have filled the "Expression of Interest" Form</strong>
       </div>
   </div>
+  <div>
+      <a href="#" class="btn btn-warning pull-right" style="margin-left:10px" data-toggle="modal" data-target="#modal_edit_{{$eoi->id}}"> Edit Interest Form </a>
+  </div>
+  @include('expressionofinterest.edit')
   <div class="container-fluid">
      <div class="col-lg-12">
        <h2>Expression Of Interest Details</h2>
