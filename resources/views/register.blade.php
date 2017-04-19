@@ -120,6 +120,7 @@
                       <label>Phone Number</label> <br/>
                       <input id="demo" name="phone_number" class="form-control" type="tel">
                     </div>
+                    <input type="hidden" id="hidden" name="code">
                   </div>
                   <div class="row">
                     <div class="form-group col-md-6">
@@ -189,19 +190,13 @@
   </div>
 </div>
 
-<script>
-  var button =document.getElementById("submit");
-  button.disabled = true;
-  var checkbox = document.getElementById("form_checkbox");
-  checkbox.onchange = function() {
-    button.disabled = !this.checked;
-  }
-</script>
+
 
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 
 <!-- external javascripts -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="{{asset('js/jquery-2.2.0.min.js')}}"></script>
 <script src="{{asset('js/jquery-ui.min.js')}}"></script>
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
@@ -209,7 +204,19 @@
 <script src="{{asset('js/jquery-plugin-collection.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
 <script src="{{asset('tel/build/js/intlTelInput.min.js')}}"></script>
-<script> $("#demo").intlTelInput();
+<script>
+  $("#demo").intlTelInput();
+  var extension = $("#demo").intlTelInput("getExtension");
+  console.log(extension);
+  $("#demo").intlTelInput("loadUtils", "lib/libphonenumber/build/utils.js");
+ </script>
+ <script>
+   var button =document.getElementById("submit");
+   button.disabled = true;
+   var checkbox = document.getElementById("form_checkbox");
+   checkbox.onchange = function() {
+     button.disabled = !this.checked;
+   }
  </script>
 
 </body>
