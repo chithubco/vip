@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <a href="#">
+        <a href="{{route('all_users')}}">
             <div class="panel-footer">
                 <span class="pull-left">View Details</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -70,19 +70,18 @@
     </div>
 </div>
 <div class="col-lg-3 col-md-6">
-    <div class="panel panel-yellow">
+    <div class="panel panel-primary">
         <div class="panel-heading">
             <div class="row">
                 <div class="col-xs-3">
-                    <i class="fa fa-shopping-cart fa-5x"></i>
+                    <i class="fa fa-dropbox fa-5x"></i>
                 </div>
                 <div class="col-xs-9 text-right">
-                    <div class="huge">124</div>
-                    <div>New Orders!</div>
+                    <div>Go to Dropbox!</div>
                 </div>
             </div>
         </div>
-        <a href="#">
+        <a href="https://www.dropbox.com/sh/zjuen830lpqum59/AAABOTQdYnzHBz6wpF_mbPQKa?dl=0">
             <div class="panel-footer">
                 <span class="pull-left">View Details</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
