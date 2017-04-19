@@ -15,7 +15,7 @@
 //     return view('index');
 // });
 Route::get('/', 'AuthController@index')->name('home');
-// Route::get('/login', 'AuthController@getLogin')->name('get_login');
+Route::get('/login', 'AuthController@getLogin')->name('get_login');
 Route::post('/login', 'AuthController@postLogin')->name('post_login');
 Route::get('/logout', 'AuthController@logout')->name('logout');
 Route::get('/register', 'AuthController@register')->name('register');

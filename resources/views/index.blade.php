@@ -164,14 +164,12 @@
             <div class="col-md-9">
               <div class="widget no-border m-0">
                 <ul class="list-inline pull-right sm-pull-none sm-text-center">
-                  </li>
                   <li class="sm-display-block mt-sm-10 mb-sm-10">
                     <a class="btn btn-colored btn-flat btn-theme-colored" href="{{route('register')}}" style="float: none;margin: 0px;display: block">Register</a>
-
                   </li>
                   <li class="sm-display-block mt-sm-10 mb-sm-10">
-                    <a id="side-panel-trigger" class="btn btn-colored btn-flat btn-theme-colored side-panel-trigger" style="float: none;margin: 0px;"
-                      href="#">Login</a>
+                    <a class="btn btn-colored btn-flat btn-theme-colored" style="float: none;margin: 0px;"
+                      href="{{route('get_login')}}">Login</a>
                   </li>
                 </ul>
               </div>
