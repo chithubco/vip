@@ -67,7 +67,7 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown">
+    <!-- <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
         <ul class="dropdown-menu alert-dropdown">
             <li>
@@ -93,7 +93,7 @@
                 <a href="#">View All</a>
             </li>
         </ul>
-    </li>
+    </li> -->
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> {{$user->first_name}} {{$user->last_name}} <b class="caret"></b></a>
         <ul class="dropdown-menu">
