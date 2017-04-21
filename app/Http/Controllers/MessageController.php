@@ -4,6 +4,7 @@
 
 	use Illuminate\Http\Request;
 	use App\Repositories\Message\MessageContract;
+	use Sentinel;
 
 	class MessageController extends Controller
 	{
@@ -31,7 +32,8 @@
 	     */
 	    public function create()
 	    {
-	        //
+				$user = Sentinel::getUser();
+				return view('message.create')->with('user', $user);
 	    }
 
 	    /**
@@ -42,7 +44,19 @@
 	     */
 	    public function store(Request $request)
 	    {
-	        //
+	        $this->validate($request, [
+						"title" => "required",
+						"message" => "required",
+					]);
+					$message = $this->repo->create($request);
+					if($message){
+	 	       return redirect()->back()
+	 	               ->with('success', 'Message sent successfully');
+	 	     }else{
+	 	       return back()
+	 	               ->withInput()
+	 	               ->with('error', 'Message sending failed. Try Again!!!');
+	 	     }
 	    }
 
 	    /**

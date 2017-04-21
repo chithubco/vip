@@ -23,7 +23,7 @@
                   <a href="{{route('express_interest')}}"><i class="fa fa-folder"></i>Expression of Interest </a>
               </li>
               <li class="@yield('registration')">
-                  <a href="{{route('registration')}}"><i class="fa fa-file"></i>VIP Registration </a>
+                  <a href="{{route('registration')}}"><i class="fa fa-pencil-square-o"></i>VIP Registration </a>
               </li>
           </ul>
       </div>

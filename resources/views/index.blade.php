@@ -512,7 +512,7 @@
         </div>
       </section>
       <!-- Section: Causes -->
-      <section id="investments">
+      <!-- <section id="investments">
         <div class="container pb-80">
           <div class="section-title text-center">
             <div class="row">
@@ -624,10 +624,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- divider: Emergency Services -->
-      <section class="divider parallax layer-overlay overlay-deep" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
+      <!-- <section class="divider parallax layer-overlay overlay-deep" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
         <div class="container">
           <div class="section-content text-center">
             <div class="row">
@@ -638,10 +638,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section: featured project -->
-      <section id="features">
+      <!-- <section id="features">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-4">
@@ -900,10 +900,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section: Volunteer -->
-      <section id="volunteers" class="divider parallax layer-overlay overlay-deep" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
+      <!-- <section id="volunteers" class="divider parallax layer-overlay overlay-deep" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
         <div class="container pb-80">
           <div class="section-title text-center">
             <div class="row">
@@ -985,18 +985,18 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- divider: Donate Now -->
-      <section class="divider parallax" data-stellar-background-ratio="0.4" data-bg-img="{{asset('images/pic33.jpg')}}">
+      <!-- <section class="divider parallax" data-stellar-background-ratio="0.4" data-bg-img="{{asset('images/pic33.jpg')}}">
         <div class="container pt-0 pb-0">
           <div class="row">
             <div class="col-md-7">
               <div class="bg-theme-colored-transparent-deep p-40">
-                <h4 class="text-uppercase line-bottom">Make An Investment Now!</h4>
+                <h4 class="text-uppercase line-bottom">Make An Investment Now!</h4> -->
 
                 <!-- Paypal Both Onetime/Recurring Form Starts -->
-                <form id="paypal_donate_form_onetime_recurring" class="form-text-white">
+                <!-- <form id="paypal_donate_form_onetime_recurring" class="form-text-white">
                   <div class="row">
 
 
@@ -1099,10 +1099,10 @@
                       </div>
                     </div>
                   </div>
-                </form>
+                </form> -->
 
                 <!-- Script for Donation Form Custom Amount -->
-                <script type="text/javascript">
+                <!-- <script type="text/javascript">
                   $(document).ready(function (e) {
                     var $donation_form = $("#paypal_donate_form_onetime_recurring");
                     //toggle custom amount
@@ -1129,11 +1129,11 @@
                       } else {
                         $donation_type_choice.hide();
                       }
-                    });
+                    }); -->
 
 
-                    // submit form on click
-                    $donation_form.on('submit', function (e) {
+                    <!--  submit form on click -->
+                    <!-- $donation_form.on('submit', function (e) {
                       $("#paypal_donate_form-onetime").submit();
                       var item_name = $donation_form.find("select[name='item_name'] option:selected").val();
                       var currency_code = $donation_form.find("select[name='currency_code'] option:selected").val();
@@ -1142,10 +1142,10 @@
 
                       if (amount == 'other') {
                         amount = $donation_form.find("#input_other_amount").val();
-                      }
+                      } -->
 
-                      // submit proper form now
-                      if ($("input[name='payment_type']:checked", $donation_form).val() == 'recurring') {
+                      <!-- // submit proper form now -->
+                      <!-- if ($("input[name='payment_type']:checked", $donation_form).val() == 'recurring') {
                         var recurring_form = $('#paypal_donate_form-recurring');
 
                         recurring_form.find("input[name='item_name']").val(item_name);
@@ -1169,23 +1169,23 @@
 
                   });
 
-                </script>
+                </script> -->
 
 
 
                 <!-- Paypal Onetime Form -->
-                <form id="paypal_donate_form-onetime" class="hidden" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <!-- <form id="paypal_donate_form-onetime" class="hidden" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                   <input type="hidden" name="cmd" value="_donations">
                   <input type="hidden" name="business" value="vip@vicampro.com">
 
-                  <input type="hidden" name="item_name" value="Sponsorship For Investments">
+                  <input type="hidden" name="item_name" value="Sponsorship For Investments"> -->
                   <!-- updated dynamically -->
-                  <input type="hidden" name="currency_code" value="USD">
+                  <!-- <input type="hidden" name="currency_code" value="USD"> -->
                   <!-- updated dynamically -->
-                  <input type="hidden" name="amount" value="20">
+                  <!-- <input type="hidden" name="amount" value="20"> -->
                   <!-- updated dynamically -->
 
-                  <input type="hidden" name="no_shipping" value="1">
+                  <!-- <input type="hidden" name="no_shipping" value="1">
                   <input type="hidden" name="cn" value="Comments...">
                   <input type="hidden" name="tax" value="0">
                   <input type="hidden" name="lc" value="US">
@@ -1194,24 +1194,24 @@
                   <input type="hidden" name="cancel_return" value="http://www.vicampro.com/vip/paymentcancel.html">
                   <input type="hidden" name="notify_url" value="http://www.vicampro.com/vip/notifypayment.php">
                   <input type="submit" name="submit">
-                </form>
+                </form> -->
 
                 <!-- Paypal Recurring Form -->
-                <form id="paypal_donate_form-recurring" class="hidden" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <!-- <form id="paypal_donate_form-recurring" class="hidden" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                   <input type="hidden" name="cmd" value="_xclick-subscriptions">
                   <input type="hidden" name="business" value="vip@vicampro.com">
 
-                  <input type="hidden" name="item_name" value="Sponsorship For Investments">
+                  <input type="hidden" name="item_name" value="Sponsorship For Investments"> -->
                   <!-- updated dynamically -->
-                  <input type="hidden" name="currency_code" value="USD">
+                  <!-- <input type="hidden" name="currency_code" value="USD"> -->
                   <!-- updated dynamically -->
-                  <input type="hidden" name="a3" value="20">
+                  <!-- <input type="hidden" name="a3" value="20"> -->
                   <!-- updated dynamically -->
-                  <input type="hidden" name="t3" value="D">
+                  <!-- <input type="hidden" name="t3" value="D"> -->
                   <!-- updated dynamically -->
 
 
-                  <input type="hidden" name="p3" value="1">
+                  <!-- <input type="hidden" name="p3" value="1">
                   <input type="hidden" name="rm" value="2">
                   <input type="hidden" name="src" value="1">
                   <input type="hidden" name="sra" value="1">
@@ -1224,18 +1224,18 @@
                   <input type="hidden" name="notify_url" value="http://www.vicampro.com/vip/notifypayment.php">
                   <input type="submit" name="submit">
                 </form>
-                <!-- Paypal Both Onetime/Recurring Form Ends -->
+                <!-- Paypal Both Onetime/Recurring Form Ends --> -->
 
-              </div>
+              <!-- </div>
             </div>
             <div class="col-md-5">
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- divider: Gallery -->
-      <section id="gallery" class="divider bg-lighter">
+      <!-- <section id="gallery" class="divider bg-lighter">
         <div class="container">
           <div class="section-title text-center">
             <div class="row">
@@ -1251,9 +1251,9 @@
           <div class="section-content">
             <div class="row">
               <div class="col-md-12">
-                <div class="gallery-isotope grid-7 gutter-small clearfix" data-lightbox="gallery">
+                <div class="gallery-isotope grid-7 gutter-small clearfix" data-lightbox="gallery"> -->
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1265,11 +1265,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1281,11 +1281,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1297,11 +1297,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1313,11 +1313,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="img/features.jpg" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1329,11 +1329,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1345,11 +1345,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1361,11 +1361,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1377,11 +1377,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1393,11 +1393,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1409,11 +1409,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1425,11 +1425,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1441,11 +1441,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1457,11 +1457,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1473,11 +1473,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1489,11 +1489,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1505,11 +1505,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1521,11 +1521,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1537,11 +1537,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1553,11 +1553,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1569,11 +1569,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <div class="gallery-item">
+                  <!-- <div class="gallery-item">
                     <div class="thumb">
                       <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
                       <div class="overlay-shade"></div>
@@ -1585,17 +1585,17 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Portfolio Item End -->
-                </div>
+                <!-- </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section: Testimonials and Logo -->
-      <section id="client" class="divider parallax layer-overlay overlay-light" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
+      <!-- <section id="client" class="divider parallax layer-overlay overlay-light" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
         <div class="container pt-0 pb-0">
           <div class="row equal-height">
             <div class="col-md-7">
@@ -1627,8 +1627,8 @@
                     </div>
                     <div class="mt-30">
                       <h4 class="text-uppercase mb-5">Subscribe to our newsletter</h4>
-                      <!-- Mailchimp Subscription Form-->
-                      <form id="mailchimp-subscription-form" class="newsletter-form mt-10">
+                      <!-- Mailchimp Subscription Form--> -->
+                      <!-- <form id="mailchimp-subscription-form" class="newsletter-form mt-10">
                         <label class="display-block" for="mce-EMAIL"></label>
                         <div class="input-group">
                           <input type="email" id="mce-EMAIL" data-height="43px" class="form-control input-lg" placeholder="Your Email" name="EMAIL"
@@ -1637,18 +1637,18 @@
                           <button type="submit" class="btn btn-flat btn-lg btn-colored btn-theme-colored m-0" data-height="43px">Subscribe</button>
                         </span>
                         </div>
-                      </form>
+                      </form> -->
 
                       <!-- Mailchimp Subscription Form Validation-->
-                      <script type="text/javascript">
+                      <!-- <script type="text/javascript">
                         $('#mailchimp-subscription-form').ajaxChimp({
                           callback: mailChimpCallBack,
                           url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
                         });
 
-                        function mailChimpCallBack(resp) {
-                          // Hide any previous response text
-                          var $mailchimpform = $('#mailchimp-subscription-form'),
+                        function mailChimpCallBack(resp) { -->
+                           <!-- Hide any previous response text -->
+                          <!-- var $mailchimpform = $('#mailchimp-subscription-form'),
                             $response = '';
                           $mailchimpform.children(".alert").remove();
                           if (resp.result === 'success') {
@@ -1714,10 +1714,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section: News -->
-      <section id="blog" class="bg-lighter">
+      <!-- <section id="blog" class="bg-lighter">
         <div class="container pb-80">
           <div class="section-title text-center">
             <div class="row">
@@ -1816,9 +1816,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section id="faq">
+      <!-- <section id="faq">
         <div class="container">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h2 class="text-theme-colored font-36">FAQ</h2>
@@ -1925,9 +1925,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Section: Contact -->
-      <section id="contact">
+      <!-- <section id="contact">
         <div class="container pb-80">
           <div class="section-title text-center">
             <div class="row">
@@ -1942,10 +1942,10 @@
           </div>
           <div class="section-content">
             <div class="row pt-30">
-              <div class="col-md-5">
+              <div class="col-md-5"> -->
 
                 <!-- Google Map HTML Codes -->
-                <div data-address="121 King Street, Melbourne Victoria 3000 Australia" data-popupstring-id="#popupstring1" class="map-canvas autoload-map"
+                <!-- <div data-address="121 King Street, Melbourne Victoria 3000 Australia" data-popupstring-id="#popupstring1" class="map-canvas autoload-map"
                   data-mapstyle="style2" data-height="500" data-latlng="9.71666667,8.91666667" data-title="sample title" data-zoom="12"
                   data-marker="images/map-marker.png">
                 </div>
@@ -1959,10 +1959,10 @@
               </div>
 
               <div class="col-md-7">
-                <h3 class="mt-0 mb-30">Interested in discussing?</h3>
+                <h3 class="mt-0 mb-30">Interested in discussing?</h3> -->
 
                 <!-- Contact Form -->
-                <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
+                <!-- <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
@@ -2006,7 +2006,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
     <!-- end main-content -->
 
     <!-- Footer -->

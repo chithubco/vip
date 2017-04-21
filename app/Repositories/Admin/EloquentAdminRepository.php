@@ -82,4 +82,13 @@ class EloquentAdminRepository implements AdminContract
       $user->save();
       return $user;
     }
+
+    public function changePassword($request){
+      $user = Sentinel::getUser();
+      $credentials = [
+        "password" => $request->new_password,
+      ];
+      $user = Sentinel::update($user, $credentials);
+      return $user;
+    }
 }

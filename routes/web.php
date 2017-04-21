@@ -30,6 +30,8 @@ Route::group(['prefix' => 'personal'], function () {
     Route::post('/edit/interest/{id}', 'ExpressionOfInterestController@edit')->name('update_interest');
     Route::get('/registration', 'RegistrationController@index')->name('registration');
     Route::post('/registration', 'RegistrationController@store')->name('save_registration');
+    Route::get('/settings', 'UserController@settings')->name('settings');
+    Route::post('/save/password', 'UserController@changePassword')->name('save_settings');
 });
 
 Route::group(['prefix' => 'admin'], function () {
@@ -41,3 +43,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/activate/user/{id}', 'AdminController@activateUser')->name('activate_user');
     Route::get('/users/interest', 'AdminController@usersInterest')->name('users_interest');
 });
+
+Route::get('/send/message', 'MessageController@create')->name('create_message');
+Route::post('/save/message', 'MessageController@store')->name('save_message');

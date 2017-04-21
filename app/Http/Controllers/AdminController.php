@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Repositories\Admin\AdminContract;
+use App\Repositories\Message\MessageContract;
 use App\Repositories\ExpressionOfInterest\ExpressionOfInterestContract;
 use Cartalyst\Sentinel\Laravel\Facades\Sentinel;
 use DB;
@@ -14,10 +15,12 @@ class AdminController extends Controller
 
 		protected $repo;
 		protected $eoiRepo;
+		protected $messageRepo;
 
-		public function __construct(AdminContract $adminContract, ExpressionOfInterestContract $eoi) {
+		public function __construct(AdminContract $adminContract, ExpressionOfInterestContract $eoi, MessageContract $msgContract) {
 			$this->repo = $adminContract;
 			$this->eoiRepo = $eoi;
+			$this->messageRepo = $msgContract;
 		}
 
     /**
@@ -27,10 +30,11 @@ class AdminController extends Controller
      */
     public function index()
     {
+			$messages = $this->messageRepo->findAll();
 			$role = Sentinel::findRoleBySlug('user');
 			$numOfUsers = $role->users()->count();
 			  $user = Sentinel::getUser();
-        return view('admin.index')->with('user', $user)->with('numOfUsers', $numOfUsers);
+        return view('admin.index')->with('user', $user)->with('numOfUsers', $numOfUsers)->with('messages', $messages);
     }
 
     /**
@@ -62,7 +66,7 @@ class AdminController extends Controller
 				}
       	$user = $this->repo->createUser($request);
 				if($user->id){
-					return redirect()->back()
+					return redirect()->route('get_login')
 													->with('success', 'Registration Successful');
 				}else{
 					return back()

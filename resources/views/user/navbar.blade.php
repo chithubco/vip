@@ -14,7 +14,7 @@
 </div>
 <!-- Top Menu Items -->
 <ul class="nav navbar-right top-nav">
-    <li class="dropdown">
+    <!-- <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
         <ul class="dropdown-menu message-dropdown">
             <li class="message-preview">
@@ -66,7 +66,7 @@
                 <a href="#">Read All New Messages</a>
             </li>
         </ul>
-    </li>
+    </li> -->
     <!-- <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
         <ul class="dropdown-menu alert-dropdown">
@@ -98,13 +98,13 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> {{$user->first_name}} {{$user->last_name}} <b class="caret"></b></a>
         <ul class="dropdown-menu">
             <li>
-                <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                <a href="{{route('user_profile')}}"><i class="fa fa-fw fa-user"></i> Profile</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
-            </li>
+            </li> -->
             <li>
-                <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                <a href="{{route('settings')}}"><i class="fa fa-fw fa-gear"></i> Settings</a>
             </li>
             <li class="divider"></li>
             <li>
