@@ -116,9 +116,13 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="form-group col-md-12">
+                    <div class="form-group col-md-3">
+                      <label>Country Code</label> <br/>
+                      <input name="country_code" class="form-control" type="tel" placeholder="+234">
+                    </div>
+                    <div class="form-group col-md-9">
                       <label>Phone Number</label> <br/>
-                      <input id="demo" name="phone_number" class="form-control" type="tel">
+                      <input name="phone_number" class="form-control" type="tel" placeholder="0010011000">
                     </div>
                     <input type="hidden" id="hidden" name="code">
                   </div>
