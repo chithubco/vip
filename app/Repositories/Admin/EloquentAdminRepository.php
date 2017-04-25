@@ -8,9 +8,9 @@ use DB;
 class EloquentAdminRepository implements AdminContract
 {
   public function createUser($request){
-
+        $phone_no = $request->country_code.$request->phone_number;
         $userDetails = [
-            'phone_no' => $request->phone_number,
+            'phone_no' => $phone_no,
             'email' => $request->email,
             'password' => $request->password,
             'first_name' => $request->first_name,
