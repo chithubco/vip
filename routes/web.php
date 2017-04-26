@@ -46,3 +46,4 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::get('/send/message', 'MessageController@create')->name('create_message');
 Route::post('/save/message', 'MessageController@store')->name('save_message');
+Route::post('/send/mail', 'MessageController@sendMail')->name('send_mail');

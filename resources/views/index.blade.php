@@ -1941,7 +1941,7 @@
           </div>
           <div class="section-content">
             <div class="row pt-30">
-              <div class="col-md-5"> -->
+              <div class="col-md-5">
 
                 <!-- Google Map HTML Codes -->
                  <div data-address="121 King Street, Melbourne Victoria 3000 Australia" data-popupstring-id="#popupstring1" class="map-canvas autoload-map"
@@ -1958,21 +1958,22 @@
               </div>
 
               <div class="col-md-7">
-                <h3 class="mt-0 mb-30">Interested in discussing?</h3> -->
+                <h3 class="mt-0 mb-30">Interested in discussing?</h3>
 
                 <!-- Contact Form -->
-                 <form id="contact_form" name="contact_form" class="" action="{{route('send_mail')}}" method="post">
+                 <form name="contact_form" class="" action="{{route('send_mail')}}" method="post">
+                   {{ csrf_field() }}
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="form_name">Name <small>*</small></label>
-                        <input id="form_name" name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                        <input id="form_name" name="name" class="form-control required" type="text" placeholder="Enter Name" >
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="form_email">Email <small>*</small></label>
-                        <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                        <input id="form_email" name="email" class="form-control required email" type="email" placeholder="Enter Email">
                       </div>
                     </div>
                   </div>
@@ -1980,23 +1981,16 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="form_name">Subject <small>*</small></label>
-                        <input id="form_subject" name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label for="form_phone">Phone</label>
-                        <input id="form_phone" name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                        <input id="form_subject" name="subject" class="form-control required" type="text" placeholder="Enter Subject">
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="form_name">Message</label>
-                    <textarea id="form_message" name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                    <textarea id="form_message" name="message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
                   </div>
                   <div class="form-group">
-                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
-                    <button type="submit" class="btn btn-dark btn-theme-colored btn-flat" data-loading-text="Please wait...">Send your message</button>
+                    <button type="submit" class="btn btn-dark btn-theme-colored btn-flat">Send your message</button>
                   </div>
                 </form>
 
