@@ -186,12 +186,11 @@
               </a>
               <ul class="menuzord-menu onepage-nav">
                 <li class="active"><a href="#home">Home</a> </li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About VIP</a></li>
                 <li><a href="#investments">Investments</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#volunteers">Volunteers</a></li>
+                <li><a href="#strategy">Our Strategy</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#client">Client</a></li>
+                <li><a href="#partners">Our Partners</a></li>
                 <li><a href="#blog">Updates</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -275,7 +274,7 @@
                     data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                     data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1400" data-splitin="none" data-splitout="none"
-                    data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-flat btn-sm btn-theme-colored" href="#">Donate Now</a>
+                    data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-flat btn-sm btn-theme-colored" href="{{route('register')}}">Register Now</a>
                   </div>
                 </li>
 
@@ -319,7 +318,7 @@
                     data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                     data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1400" data-splitin="none" data-splitout="none"
-                    data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-sm btn-flat btn-theme-colored" href="#">Donate Now</a>
+                    data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-sm btn-flat btn-theme-colored" href="{{route('register')}}">Register Now</a>
                   </div>
                 </li>
               </ul>
@@ -641,7 +640,7 @@
       </section> -->
 
       <!-- Section: featured project -->
-      <!-- <section id="features">
+      <!-- <section id="strategy">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-4">
@@ -1595,7 +1594,7 @@
       </section> -->
 
       <!-- Section: Testimonials and Logo -->
-      <!-- <section id="client" class="divider parallax layer-overlay overlay-light" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
+      <!-- <section id="partners" class="divider parallax layer-overlay overlay-light" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
         <div class="container pt-0 pb-0">
           <div class="row equal-height">
             <div class="col-md-7">
@@ -1927,7 +1926,7 @@
         </div>
       </section> -->
       <!-- Section: Contact -->
-      <!-- <section id="contact">
+      <section id="contact">
         <div class="container pb-80">
           <div class="section-title text-center">
             <div class="row">
@@ -1945,7 +1944,7 @@
               <div class="col-md-5"> -->
 
                 <!-- Google Map HTML Codes -->
-                <!-- <div data-address="121 King Street, Melbourne Victoria 3000 Australia" data-popupstring-id="#popupstring1" class="map-canvas autoload-map"
+                 <div data-address="121 King Street, Melbourne Victoria 3000 Australia" data-popupstring-id="#popupstring1" class="map-canvas autoload-map"
                   data-mapstyle="style2" data-height="500" data-latlng="9.71666667,8.91666667" data-title="sample title" data-zoom="12"
                   data-marker="images/map-marker.png">
                 </div>
@@ -1962,7 +1961,7 @@
                 <h3 class="mt-0 mb-30">Interested in discussing?</h3> -->
 
                 <!-- Contact Form -->
-                <!-- <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
+                 <form id="contact_form" name="contact_form" class="" action="{{route('send_mail')}}" method="post">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
