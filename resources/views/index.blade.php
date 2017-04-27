@@ -347,6 +347,12 @@ We encourage you to invest in this program because apart from the obvious advant
 We have all we need to make Nigeria a great Nation, let’s work together to make sure we become an envy of other nations.</p>
         </div>
       </section>
+      <section id="strategy">
+        <div>
+          <h2 class="text-theme-colored mt-0">Our Strategy</h2>
+          <p style="font-weight:18px">Pulling capital together through a crowd funding approach.</p>
+        </div>
+      </section>
       <section id="#" class="bg-lighter">
         <div class="container">
               <h2 class="text-theme-colored mt-0">Crowdfunding Approach</h2>
