@@ -329,6 +329,16 @@
         </div>
       </section>
 
+      <section
+        <div class="container">
+          <div class="col-md-12">
+              <div>
+                @include('countdowntimer')
+              </div>
+          </div>
+        <div>
+      </section>
+
       <!-- Section: about -->
       <section id="about" class="bg-lighter">
         <div class="container">
