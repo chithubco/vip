@@ -355,7 +355,7 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
       </section>
       <section id="#" class="bg-lighter">
         <div class="container">
-              <h2 class="text-theme-colored mt-0">Crowdfunding Approach</h2>
+              <h2 class="text-theme-colored mt-0">Crowdfunding Types</h2>
           <div class="row">
                 <div class="col-md-3">
                 <div class="thumbnail">
@@ -404,7 +404,7 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
             <div class="col-md-6">
               <h4 class="text-theme-colored mt-20 mb-5">VIP Process Flow</h4>
               <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>The Vicampro Team has discussion with the prospective Investor on the VIP Project and submits the Application form for completion by the Applicant. </li>
+                <li>The Vicampro Team has discussion with the prospective Investor on the VIP Project and directs them to the VIP website to register for an account. </li>
                 <li>The Investor pays the specified amount into Vicampro’s dedicated account and attaches evidence of payment together with the completed application forms to Vicampro.</li>
                 <li>Vicampro issues a Certificate of Investment, which contains the commencement and maturity dates, as well as hectares allocated.</li>
                 <li>The investor or the duly assigned representative can visit the farm at anytime for inspection.</li>
@@ -416,9 +416,10 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
             <div class="col-md-6">
               <h4 class="text-theme-colored mt-20 mb-5">How do I invest In Vicampro<span class="theme-colored">?</span></h4>
               <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>Prospective Investor visits the website and completes an online expression of interest form and submit.</li>
+                <li>Prospective Investor visits the website and registers for an account.</li>
+                <li>Once registered, the prospective investor can login to update his/her profile among other things.</li>
                 <li>Prospective Investor will be granted access to a dropbox to review the approved term sheet, uploaded pitch video, investor deck, business plan, financial statements, subscription agreement, shareholder agreement and all other relevant documents to guide investment decision.</li>
-                <li>The investor completes the shareholder agreement form (Equity crowdfunding) or subscription form (Debt crowdfunding). He/She makes payment to the dedicated account and uploads evidence of payment together with the completed form on the portal.</li>
+                <li>The investor completes the online registration form after agreeing to the terms and conditions. He/She makes payment to the dedicated account and uploads evidence of payment together with the completed form on the portal.</li>
                 <li>All completed applications will be reviewed and approved based on first payment basis at close of the investment window. Successful Applicants will be issued Share Certificates (Equity) and Subscription Certificate (Debt).</li>
               </ul>
             </div>
@@ -1265,7 +1266,7 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
       </section> -->
 
       <!-- divider: Gallery -->
-      <!-- <section id="gallery" class="divider bg-lighter">
+      <section id="gallery" class="divider bg-lighter">
         <div class="container">
           <div class="section-title text-center">
             <div class="row">
@@ -1274,355 +1275,237 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
                 <div class="title-icon">
                   <i class="flaticon-charity-hand-holding-a-heart"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
               </div>
             </div>
           </div>
           <div class="section-content">
             <div class="row">
               <div class="col-md-12">
-                <div class="gallery-isotope grid-7 gutter-small clearfix" data-lightbox="gallery"> -->
+                <div class="gallery-isotope grid-7 gutter-small clearfix" data-lightbox="gallery">
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/1.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg1.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/1.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/2.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg2.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/2.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/3.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg3.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/3.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/4.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg4.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/4.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="img/features.jpg" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/5.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg5.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/5.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/6.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg6.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/6.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/7.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg7.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/7.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/9.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg8.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/9.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/12.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg9.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/12.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/author.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/13.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg10.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/13.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/features.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/14.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg11.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/14.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="{{asset('images/member-1.jpg')}}" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/10.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg12.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/10.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/11.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg13.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/11.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
 
                   <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
+                  <div class="gallery-item">
                     <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
+                      <img alt="project" src="{{asset('images/gallery/8.jpg')}}" class="img-fullwidth">
                       <div class="overlay-shade"></div>
                       <div class="icons-holder">
                         <div class="icons-holder-inner">
                           <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg14.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                            <a href="{{asset('images/gallery/8.jpg')}}" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg15.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg16.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg17.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg18.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg19.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg1.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-
-                  <!-- Portfolio Item Start -->
-                  <!-- <div class="gallery-item">
-                    <div class="thumb">
-                      <img alt="project" src="http://placehold.it/155x106" class="img-fullwidth">
-                      <div class="overlay-shade"></div>
-                      <div class="icons-holder">
-                        <div class="icons-holder-inner">
-                          <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                            <a href="images/gallery/gallery-lg2.jpg" data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Portfolio Item End -->
-                <!-- </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
+      </section>
 
       <!-- Section: Testimonials and Logo -->
       <!-- <section id="partners" class="divider parallax layer-overlay overlay-light" data-stellar-background-ratio="0.2" data-bg-img="{{asset('images/pic33.jpg')}}">
