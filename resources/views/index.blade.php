@@ -1731,7 +1731,7 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
         </div>
       </section> -->
 
-      <!-- <section id="faq">
+      <section id="faq">
         <div class="container">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h2 class="text-theme-colored font-36">FAQ</h2>
@@ -1742,95 +1742,189 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
                 <div class="panel">
                   <div class="panel-title">
                     <a data-parent="#accordion1" data-toggle="collapse" href="#accordion11" class="collapsed" aria-expanded="false">
-                    <span class="open-sub"></span> <strong>Q. What do you mean by item and end product?</strong></a>
+                    <span class="open-sub"></span> <strong>Q. Why farm only in Jos and Kaduna?</strong></a>
                   </div>
                   <div id="accordion11" class="panel-collapse collapse" role="tablist" aria-expanded="false" style="height: 0px;">
                     <div class="panel-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia dolor rerum enim doloremque
-                        iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus, maiores officiis
-                        vitae fuga sunt repellendus. Molestiae quae, ducimus ut tenetur nobis id quam autem quibusdam commodi
-                        inventore laborum libero officiis</p>
-                      <p>Accusantium a laboriosam cumque consequatur voluptates fuga assumenda corporis amet. Vitae placeat
-                        architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta
-                        corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, culpa
-                        quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque,
-                        dolor praesentium.</p>
+                      <p>The choice of these locations was as a result of the favourable weather condition and the soil highly suitable for Potato cultivation gives the location an edge over other places.</p>
                     </div>
                   </div>
                 </div>
                 <div class="panel">
                   <div class="panel-title">
                     <a class="collapsed" data-parent="#accordion1" data-toggle="collapse" href="#accordion12" aria-expanded="false">
-                    <span class="open-sub"></span> <strong>Q. What are some examples of permitted end products?</strong></a>
+                    <span class="open-sub"></span> <strong>Q.What is the guarantee that I would get my money back??</strong></a>
                   </div>
                   <div id="accordion12" class="panel-collapse collapse" role="tablist" aria-expanded="false" style="height: 0px;">
                     <div class="panel-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia dolor rerum enim doloremque
-                        iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus, maiores officiis
-                        vitae fuga sunt repellendus. Molestiae quae, ducimus ut tenetur nobis id quam autem quibusdam commodi
-                        inventore laborum libero officiis</p>
-                      <p>Accusantium a laboriosam cumque consequatur voluptates fuga assumenda corporis amet. Vitae placeat
-                        architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta
-                        corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, culpa
-                        quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque,
-                        dolor praesentium.</p>
+                      <li>Imported high breed disease resistant seeds to be planted.</li>
+                      <li>Test field yield of between 20 to 25 tons per hectare achieved.</li>
+                      <li>VIP projected yield of 15 tons per hectare is below actual yield achieved.</li>
+                      <li>Highly trained young professionals with burning desire for success.</li>
+                      <li>Nigerian Agricultural Insurance Corporation to provide full Insurance coverage.</li>
+                      <li>Government support to Vicampro from inception</li>
+                      <li>Existing local and international markets for the product.</li>
                     </div>
                   </div>
                 </div>
                 <div class="panel">
                   <div class="panel-title">
                     <a data-parent="#accordion1" data-toggle="collapse" href="#accordion13" class="collapsed" aria-expanded="false">
-                    <span class="open-sub"></span> <strong>Q. Am I allowed to modify the item that I purchased?</strong></a>
+                    <span class="open-sub"></span> <strong>Q. 3. Why don’t we have a farm somewhere close to the South-West?</strong></a>
                   </div>
                   <div id="accordion13" class="panel-collapse collapse" role="tablist" aria-expanded="false">
                     <div class="panel-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia dolor rerum enim doloremque
-                        iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus, maiores officiis
-                        vitae fuga sunt repellendus. Molestiae quae, ducimus ut tenetur nobis id quam autem quibusdam commodi
-                        inventore laborum libero officiis</p>
-                      <p>Accusantium a laboriosam cumque consequatur voluptates fuga assumenda corporis amet. Vitae placeat
-                        architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta
-                        corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, culpa
-                        quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque,
-                        dolor praesentium.</p>
+                      <p>The focus of the Company is presently on Potato value chain. This will be extended to other worthy crops with farms across the country in the future.</p>
                     </div>
                   </div>
                 </div>
                 <div class="panel">
                   <div class="panel-title">
                     <a data-parent="#accordion1" data-toggle="collapse" href="#accordion14" class="collapsed" aria-expanded="false">
-                    <span class="open-sub"></span> <strong>Q. What does non-exclusive mean?</strong></a>
+                    <span class="open-sub"></span> <strong>Q.How do I know how much profit has been made?</strong></a>
                   </div>
                   <div id="accordion14" class="panel-collapse collapse" role="tablist" aria-expanded="false">
                     <div class="panel-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia dolor rerum enim doloremque
-                        iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus, maiores officiis
-                        vitae fuga sunt repellendus. Molestiae quae, ducimus ut tenetur nobis id quam autem quibusdam commodi
-                        inventore laborum libero officiis</p>
-                      <p>Accusantium a laboriosam cumque consequatur voluptates fuga assumenda corporis amet. Vitae placeat
-                        architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta
-                        corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, culpa
-                        quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque,
-                        dolor praesentium.</p>
+                      <p>The Investor will be contacted before the harvest in any field and the yield from the harvest will be communicated to the investor. The integrity of the Company will be highly safeguarded.</p>
                     </div>
                   </div>
                 </div>
                 <div class="panel">
                   <div class="panel-title">
                     <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
-                    <span class="open-sub"></span> <strong>Q. What is a single application?</strong></a>
+                    <span class="open-sub"></span> <strong>Q.Who are the Directors of Vicampro?</strong></a>
                   </div>
                   <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
                     <div class="panel-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia dolor rerum enim doloremque
-                        iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus, maiores officiis
-                        vitae fuga sunt repellendus. Molestiae quae, ducimus ut tenetur nobis id quam autem quibusdam commodi
-                        inventore laborum libero officiis</p>
-                      <p>Accusantium a laboriosam cumque consequatur voluptates fuga assumenda corporis amet. Vitae placeat
-                        architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta
-                        corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, culpa
-                        quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque,
-                        dolor praesentium.</p>
+                      <li> Mr. Michael Agbogo </li>
+                      <li> Mr. Yakubu Musa </li>
+                      <li> Mrs Adeola Adediran </li>
+                      <li> Mrs Nkechi A. </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.Why not break the investment into smaller sums like N500,000.00, or N100,000.00 and merge investors to make up a 3-million-naira Cluster?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>Based on our calculation and experience, we need an average of N3,000,000 to successfully farm potato on one hectare. The VIP is designed for investors that are willing and able to make such investment for a good returns.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.How secure is my investment?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p> The investment is managed by highly experienced professionals with the support of expatriate technical partners in Europe. The Company prioritize the repayment of principal and accrued interest or share of profit to investors before any other payment to other stakeholders.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q. What happens to my investment if there is a loss?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>Your investment is guaranteed as the company has taken steps to mitigate against losses. The farm will be fully insured against Flooding, droughts, pest/diseases and other attacks on the crops by NAIC. The investors does is not affected by any form of loss.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.9. What is the difference between “Expected ROI-Interest based and Expected ROI-Profit sharing base?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>Expected ROI-Interest based is an investment category where you invest a minimum of N3,000,000 and above and get a fixed percentage interest on your investment after a 12-month-period,
+                        meaning the sum you get after the period is fixed. Here you get 30% fixed return on your investment if your investment covers between 1 and 10 hectares. If the investment covers between
+                         11 and 100 hectares, the expected return after 12 months is 35%, while you get 40% return if your investment covers 101 hectares and above.
+                        Expected ROI-Profit share based is an investment category where you share the profit accrued on your investment with the company. Here, the sum is not fixed, only the profit share percentage.
+                        When you invest N3,000,000 and above, you share the profit accrued after 12 months with the company after getting back your principal.  Here, you get 40% profit share return on your investment
+                         if your investment covers between 1 and 10 hectares. If the investment covers between 11 and 100 hectares, the expected profit share return after 12 months is 45%, while you get 50% profit share
+                         return if your investment covers 101 hectares and above. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.Why is the least investment N3,000,000.00?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>The N3,000,000 is the average cost of cultivation per hectare. It covers cost of land preparation to post harvest.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.Is the program backed by Government?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>Vicampro has been working in partnership with the Federal Government through the Federal Ministry of Agriculture and its parastatals,
+                         Nigeria Investment Promotion Council, Kaduna State Government, Plateau State Government and other government agencies.
+                         The crowd funding approach allows for collective participation in boosting agriculture by everyone.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.How did the company raise their initial capital?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                        <p>The Company started as a limited liability company with
+                           the directors raising the required initial capital and supported by CBN Commercial Agricultural Guarantee Scheme facility.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.How safe are Plateau and Kaduna states, given the security situations there?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>The farm sites are located in areas less prone to crisis.
+                        VIP is implemented on the Kaduna field located in Manchok on the highly busy Kaduna-Jos-Abuja expressway.
+                        This area has never witnessed any form of crisis in the past.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.Why not sell the land out rightly, instead of investing on them?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>The land was secured on a long term lease agreement with Kaduna
+                         State Government and endorsed by the state Governor to Vicampro. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title">
+                    <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15" class="collapsed" aria-expanded="false">
+                    <span class="open-sub"></span> <strong>Q.What if I want to discontinue before the expiration of the 12 months cycle?</strong></a>
+                  </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                    <div class="panel-content">
+                      <p>Once the investment has been made, you can only discontinue after the 12 month period.
+                        This is because the company would have invested in inputs for the invested hectare and will definitely run at a loss
+                        if the investment is requested before the 12-month-tenure. 
+                        However, the choice to re-invest at expiration solely lies on the investor.</p>
                     </div>
                   </div>
                 </div>
@@ -1838,7 +1932,7 @@ We have all we need to make Nigeria a great Nation, let’s work together to mak
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- Section: Contact -->
       <section id="contact">
         <div class="container pb-80">
