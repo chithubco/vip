@@ -1,6 +1,6 @@
 <div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label>Preferred Investment Type </label>
       <select class="form-control" id="investment_type" onchange="calculate()">
         <option value="">---</option>
@@ -8,11 +8,13 @@
         <option value="roip">ROI Profit Share</option>
       </select>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <label> Number Of Hectares </label>
       <input type="text" id="no_of_hectares" placeholder="Number of Hectares" class="form-control" oninput="calculate()">
     </div>
+    <div class="col-md-2 col-xs-4 col-xs-offset-4" style="margin-top:2.5%">
       <button id="calculate" href="#" class="btn btn-dark btn-theme-colored btn-flat font-16 mt-0 btn pull-right" onclick="calculate()">Calculate</button>
+  </div>
   </div>
 
   <h5 style="padding:10px"> Profit Per hectare : <span id="profit_per_ha"> 0</span></h5>

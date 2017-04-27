@@ -321,17 +321,17 @@
                     data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-sm btn-flat btn-theme-colored" href="{{route('register')}}">Register Now</a>
                   </div>
                 </li>
-                <li data-index="rs-3" data-transition="random" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000"
-                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-x="['center']"
-                    data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
-                  @include('countdowntimer')
-                </li>
               </ul>
             </div>
             <!-- end .rev_slider -->
           </div>
 
         </div>
+      </section>
+      <section>
+          <div class="container">
+            @include('countdowntimer')
+          <div> <br/> <br/>
       </section>
 
       <!-- Section: about -->

@@ -19,7 +19,7 @@ margin: 40px 0px 20px;
   display: inline-block;
   font-weight: 100;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #clockdiv > div{
@@ -44,20 +44,20 @@ margin: 40px 0px 20px;
 <div>
 <h2 class="text-theme-colored mt-0">VIP Registration Begins in:</h2>
   <div id="clockdiv">
-    <div>
-      <span class="days"></span>
+    <div class="col-xs-3">
+      <span class="days col-xs-12"></span>
       <div class="smalltext">Days</div>
     </div>
-    <div>
-      <span class="hours"></span>
+    <div class="col-xs-3">
+      <span class="hours col-xs-12"></span>
       <div class="smalltext">Hours</div>
     </div>
-    <div>
-      <span class="minutes"></span>
+    <div class="col-xs-3">
+      <span class="minutes col-xs-12"></span>
       <div class="smalltext">Minutes</div>
     </div>
-    <div>
-      <span class="seconds"></span>
+    <div class="col-xs-3">
+      <span class="seconds col-xs-12"></span>
       <div class="smalltext">Seconds</div>
     </div>
 </div>
