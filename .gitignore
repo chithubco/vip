@@ -8,3 +8,4 @@ Homestead.json
 Homestead.yaml
 .env
 ioc.sh
+/resources/views/misc.blade.php

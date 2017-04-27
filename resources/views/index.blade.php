@@ -337,114 +337,18 @@
       <!-- Section: about -->
       <section id="about" class="bg-lighter">
         <div class="container">
-              <h2 class="text-theme-colored mt-0">Crowdfunding Approach</h2>
-          <div class="row">
-                <div class="col-md-3">
-                <div class="thumbnail">
-                  <img class="img-fullwidth" src="{{asset('images/equity.png')}}" alt="...">
-                  <div class="caption">
-                    <h4 class="title text-theme-colored mt-0">Equity Crowd Funding</h4>
-                    <p>Enables participants to invest in a company and becomes shareholder.</p>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                <div class="thumbnail">
-                  <a href="#"><img class="img-fullwidth" src="{{asset('images/debt.png')}}" alt="..."></a>
-                  <div class="caption">
-                    <h4 class="title text-theme-colored mt-0">Debt-based Crowdfunding</h4>
-                    <p>This is also referred to as crowd
-                  lending. It allows participants to fund a project or venture with a guaranteed payment of the amount invested
-                  and interest agreed upon.</p>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                <div class="thumbnail">
-                  <a href="#"><img class="img-fullwidth" src="{{asset('images/our_approach.png')}}" alt="..."></a>
-                  <div class="caption">
-                    <h4 class="title text-theme-colored mt-0">Debt Crowdfunding-Interest based</h4>
-                    <p>This allows for a fixed
-                  interest payment. The principal and interest is paid at maturity (12 months) to the participant.</p>
-                  </div>
-                </div>
-                </div>
-                <div class="col-md-3">
-                <div class="thumbnail">
-                  <a href="#"><img class="img-fullwidth" src="{{asset('images/approach.png')}}" alt="..."></a>
-                  <div class="caption">
-                    <h4 class="title text-theme-colored mt-0">Debt Crowdfunding-Profit based</h4>
-                    <p>This is designed for investors
-                  that do not support interest-based transactions. The principal and proportion of pre-determined earned
-                  profit is paid to the investor at maturity (12 Months).</p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-          <img src="{{asset('images/crowd.png')}}" class="img-absolute row">
-            <div class="row">
-            <div class="col-md-6">
-              <h4 class="text-theme-colored mt-20 mb-5">VIP Process Flow</h4>
-              <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>The Vicampro Team has discussion with the prospective Investor on the VIP Project and submits the Application form for completion by the Applicant. </li>
-                <li>The Investor pays the specified amount into Vicampro’s dedicated account and attaches evidence of payment together with the completed application forms to Vicampro.</li>
-                <li>Vicampro issues a Certificate of Investment, which contains the commencement and maturity dates, as well as hectares allocated.</li>
-                <li>The investor or the duly assigned representative can visit the farm at anytime for inspection.</li>
-                <li>At maturity, both the principal investment and interest will be paid back to the investor’s specified account.</li>
-                <li>The investment is terminated upon full payment of principal and interest.</li>
-                <li>This can be rolled over for another period of 12 months via a letter of notification and subject to Vicampro’s approval.</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <h4 class="text-theme-colored mt-20 mb-5">How do I invest In Vicampro<span class="theme-colored">?</span></h4>
-              <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>Prospective Investor visits the website and completes an online expression of interest form and submit.</li>
-                <li>Prospective Investor will be granted access to a dropbox to review the approved term sheet, uploaded pitch video, investor deck, business plan, financial statements, subscription agreement, shareholder agreement and all other relevant documents to guide investment decision.</li>
-                <li>The investor completes the shareholder agreement form (Equity crowdfunding) or subscription form (Debt crowdfunding). He/She makes payment to the dedicated account and uploads evidence of payment together with the completed form on the portal.</li>
-                <li>All completed applications will be reviewed and approved based on first payment basis at close of the investment window. Successful Applicants will be issued Share Certificates (Equity) and Subscription Certificate (Debt).</li>
-              </ul>
-            </div>
-            </div>
-          <img src="{{asset('images/obj.png')}}" class="img-absolute row">
-          <div class="row">
-            <div class="col-md-6">
-              <h4 class="text-theme-colored mt-20 mb-5">VIP Objectives</h4>
-              <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>Creating Food Security</li>
-                <li>Creating 30,000 direct Jobs</li>
-                <li>Creating wealth</li>
-                <li>Rural prosperity</li>
-                <li>Economic enhancement</li>
-                <li>Agricultural Sector development</li>
-                <li>A new sustainable partnership model in Agriculture</li>
-                <li>Development of export capacity</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <h4 class="text-theme-colored mt-20 mb-5">Benefits of VIP to Participants</h4>
-              <ul class="list theme-colored angle-double-right mb-sm-30">
-                <li>Wealth Maximization</li>
-                <li>High return on investment with less risks</li>
-                <li>Opportunity for Debt to Equity conversion</li>
-                <li>A paradigm shift into Agricultural investment</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-12 text-center">
-            <h4 class="text-theme-colored mt-20 mb-5">VIP Modalities</h4>
-            <ul class="list theme-colored angle-double-right mb-sm-30">
-              <li>Opportunity is available to selected few individuals, Co-operative Societies, SMEs, Pension Funds administrators and Government at all levels.</li>
-              <li>The Investment window opens on Tuesday 2nd May, 2017 and closes Friday 30th June, 2017.</li>
-              <li>The Investment closes immediately the last (1000th) hectare is acquired without regards to the closing date of 30th June, 2017.</li>
-              <li>Allotment will be considered on the basis of “first come first serve”.</li>
-              <li>The commencement date for the investment is 1st July, 2017 and the Maturity date is 30th June, 2018.</li>
-              <li>Payment of principal and interest will be due on 1st July, 2018.</li>
-            </ul>
-          </div>
-            </div>
-          </div>
+            <h2 class="text-theme-colored mt-0">About Us</h2>
+            <p style="font-weight:18px"> Vicampro investment program (VIP) is a crowd funding investment model where we give individuals opportunity to invest their money in our agricultural revolution and get a guaranteed return on their investment after a 12 month period.
+In line with our mission of ensuring food security in Nigeria, we have been involved in Irish potato and maize cultivation in North central part of Nigeria, Jos, plateau state and Manchok, Kaduna state to be precise.
+Nigeria as we know is blessed with an abundance of arable land, material and human resources, but we keep falling behind in our growth index.
+One of the goals of great nations is first of all to be able to feed its citizens and being dependent on imported foods leaves us vulnerable to other countries. Rice as we know has being imported in large volumes, but what we fail to understand is that it translates to a better economy for the nation we import from.
+If we can meet the local demand for potato consumption in Nigeria, that translates to a better and healthier society and more work for the ever growing working population.
+We know so many people are interested in farming but are either not willing to go through the stress of being a farmer (which is a lot) or do not have the know-how and expertise of managing a farm. This is where we come in. Through the VIP crowd funding model, we use your funds to farm for you and guarantee you an interest on your investment after a 12 month period.
+We encourage you to invest in this program because apart from the obvious advantage of getting a lucrative return on your investment, you also become a partner in our food security and job creation revolution for this country.
+We have all we need to make Nigeria a great Nation, let’s work together to make sure we become an envy of other nations.</p>
         </div>
       </section>
+      
 
       <section id="pricing" class="bg-lighter">
         <div class="container">
