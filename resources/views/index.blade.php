@@ -520,6 +520,12 @@
           </div>
         </div>
       </section>
+      <section>
+        <div class="container">
+          <h3 class="text-theme-colored mt-0">Profit Calculator</h3>
+            @include('calculator')
+        </div>
+      </section>
       <!-- Section: Causes -->
       <!-- <section id="investments">
         <div class="container pb-80">
@@ -1233,7 +1239,7 @@
                   <input type="hidden" name="notify_url" value="http://www.vicampro.com/vip/notifypayment.php">
                   <input type="submit" name="submit">
                 </form>
-                <!-- Paypal Both Onetime/Recurring Form Ends --> -->
+                 Paypal Both Onetime/Recurring Form Ends -->
 
               <!-- </div>
             </div>
@@ -1636,7 +1642,7 @@
                     </div>
                     <div class="mt-30">
                       <h4 class="text-uppercase mb-5">Subscribe to our newsletter</h4>
-                      <!-- Mailchimp Subscription Form--> -->
+                      <!-- Mailchimp Subscription Form-->
                       <!-- <form id="mailchimp-subscription-form" class="newsletter-form mt-10">
                         <label class="display-block" for="mce-EMAIL"></label>
                         <div class="input-group">
@@ -1945,7 +1951,6 @@
                 <div class="title-icon">
                   <i class="flaticon-charity-hand-holding-a-heart"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
               </div>
             </div>
           </div>

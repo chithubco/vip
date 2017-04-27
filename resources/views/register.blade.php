@@ -47,7 +47,6 @@
 </head>
 <body class="">
 <div id="wrapper">
-
   <!-- start main-content -->
   <div class="main-content">
     <!-- Section: home -->
