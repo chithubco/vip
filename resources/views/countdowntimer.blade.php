@@ -19,7 +19,7 @@ margin: 40px 0px 20px;
   display: inline-block;
   font-weight: 100;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #clockdiv > div{

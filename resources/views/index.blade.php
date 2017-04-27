@@ -321,22 +321,17 @@
                     data-responsive_offset="on" style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-sm btn-flat btn-theme-colored" href="{{route('register')}}">Register Now</a>
                   </div>
                 </li>
+                <li data-index="rs-3" data-transition="random" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000"
+                    data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-x="['center']"
+                    data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-description="">
+                  @include('countdowntimer')
+                </li>
               </ul>
             </div>
             <!-- end .rev_slider -->
           </div>
 
         </div>
-      </section>
-
-      <section
-        <div class="container">
-          <div class="col-md-12">
-              <div>
-                @include('countdowntimer')
-              </div>
-          </div>
-        <div>
       </section>
 
       <!-- Section: about -->
@@ -2027,10 +2022,9 @@
               <a class="btn btn-default btn-transparent btn-xs btn-flat mt-5" href="#">Read more</a>
               <ul class="styled-icons icon-sm icon-bordered icon-circled clearfix mt-20">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/vip_vicampro"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/vip02052017"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fa fa-fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
               </ul>
             </div>
           </div>
