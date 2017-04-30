@@ -115,8 +115,8 @@
 						 $mail->SMTPSecure = "ssl"; // or ssl
 						 $mail->Host =  'smtp.sendgrid.net';
 						 $mail->Port = 465; // most likely something different for you. This is the mailtrap.io port i use for testing.
-						 $mail->Username = "apikey";
-						 $mail->Password = "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";
+						 $mail->Username = "";
+						 $mail->Password = "";
 						 $mail->setFrom("youremail@yourdomain.de", "Firstname Lastname");
 						 $mail->Subject = "Test";
 						 $mail->MsgHTML("This is a test");
