@@ -46,8 +46,6 @@
             var total_annual_profit = hectares.value * profit_per_ha;
             var total_annual_return = total_annual_profit + total_investment_amount;
           }
-
-
     }
     else if(option.value =='roip')
     {
@@ -66,8 +64,12 @@
       }
 
     }
-    document.getElementById("profit_per_ha").innerHTML = profit_per_ha;
-    document.getElementById("total_annual_profit").innerHTML = total_annual_profit;
-    document.getElementById("total_annual_return").innerHTML = total_annual_return;
+    document.getElementById("profit_per_ha").innerHTML = formatNumber(profit_per_ha);
+    document.getElementById("total_annual_profit").innerHTML = formatNumber(total_annual_profit);
+    document.getElementById("total_annual_return").innerHTML = formatNumber(total_annual_return);
   }
+
+  function formatNumber (num) {
+    return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+}
 </script>
