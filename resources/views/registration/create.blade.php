@@ -232,13 +232,13 @@
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label"> Number of Hectares (Ha) </label>
-                                          <input class="form-control" name="number_of_hectares" placeholder="Number of Hectares" value="{{old('number_of_hectares')}}"/>
+                                          <input id="hectares" oninput="calculate()" class="form-control" name="number_of_hectares" placeholder="Number of Hectares" value="{{old('number_of_hectares')}}"/>
                                       </div>
                                   </div>
                                   <div class="col-md-4">
                                       <div class="form-group">
-                                          <label class="control-label"> Proposed Investement Amount(Multiple of 3 million) </label>
-                                          <input class="form-control" name="proposed_investment_amount" placeholder="Proposed Investment Amount" value="{{old('proposed_investment_amount')}}"/>
+                                          <label class="control-label"> Proposed Investment Amount </label>
+                                          <input id="amount" class="form-control" name="proposed_investment_amount" placeholder="Proposed Investment Amount" value="{{old('proposed_investment_amount')}}"/>
                                       </div>
                                   </div>
                                   <div class="col-md-4">
@@ -309,4 +309,13 @@
         @include('layouts.errors')
       </div>
     @endif
+    <script>
+    function calculate() {
+      var hectares = document.getElementById("hectares");
+      var amount = 3000000 * hectares.value;
+      console.log(amount);
+      document.getElementById("amount").value = amount;
+      console.log(document.getElementById("amount").innerHTML);
+    }
+    </script>
 @endsection

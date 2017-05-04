@@ -186,4 +186,8 @@ class AdminController extends Controller
 			$eois = $this->eoiRepo->findAll();
 			return view('admin.users_interest')->with('eois', $eois)->with('users', $users)->with('user', $user);
 		}
+
+		public function terms(){
+			return view('terms');
+		}
 }
