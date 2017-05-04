@@ -50,6 +50,9 @@ class EloquentAdminRepository implements AdminContract
           'email' => $request->email,
           'address' => $request->address,
           'profile_picture_path' => '/'.$destination.'/'.$fileName,
+          'title'=> $request->title,
+          'sex' => $request->sex,
+          'postal_address'=> $request->postal_address,
       ];
       $user = Sentinel::update($user, $credentials);
       return $user;

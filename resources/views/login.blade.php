@@ -116,6 +116,7 @@
                     <button type="submit" class="btn btn-dark btn-sm">Login</button>
                   </div>
                 </form>
+                <small> Don't have an account yet? <a href="{{route('register')}}"> Register </a> </small>
               </div>
             </div>
           </div>

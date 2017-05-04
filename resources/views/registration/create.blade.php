@@ -57,6 +57,21 @@
                         {{Form::open(array('route' => 'save_registration', 'method' => 'POST', 'files' => 'true'))}}
                             {{ csrf_field() }}
                             <div class="content">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label class="control-label">Title </label>
+                                          <input class="form-control" name="title" type="text"  value="{{$user->title}}" disabled/>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label class="control-label">Sex </label>
+                                          <input class="form-control" name="sex" type="text" value="{{$user->sex}}" disabled=""/>
+                                      </div>
+                                  </div>
+                              </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">

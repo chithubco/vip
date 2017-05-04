@@ -53,9 +53,9 @@
                     <li>
                         <a href="{{route('all_users')}}">View Users</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="{{route('users_interest')}}">Expression Of interest</a>
-                    </li>
+                    </li> -->
                 </ul>
             </li>
         </ul>
