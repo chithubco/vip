@@ -135,8 +135,10 @@
                       <label>Re-enter Password</label>
                       <input id="form_re_enter_password" name="confirm_password" class="form-control" type="password">
                     </div>
-                    <div class="form-group col-md-6">                        
-                        <p>By Clicking "Register", you agree to our <a style="color:red;" href="{{route('terms')}}" target="_blank">terms.</p>
+                    <div class="form-group col-md-6">
+                      <label for="form_checkbox">
+                        <input id="form_checkbox" name="terms" type="checkbox">
+                        By ticking this box, you agree to our <a style="color:red;" href="{{route('terms')}}" target="_blank">terms.
                       </label>
                     </div>
                   </div>
