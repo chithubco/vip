@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <a href="https://www.dropbox.com/sh/zjuen830lpqum59/AAABOTQdYnzHBz6wpF_mbPQKa?dl=0">
+        <a href="https://www.dropbox.com/sh/iyrv04cdq25obwh/AAC5JihX9Ewj0rP8OYJPFI4ka?dl=0">
             <div class="panel-footer">
                 <span class="pull-left">View Details</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

@@ -48,9 +48,9 @@
     </div>
   @else
       <div class="container-fluid">
-        <h1 class="page-header">
-            Registration Form <small>{{$user->first_name}} {{$user->last_name}}</small>
-        </h1>
+        <h2 class="page-header">
+            Registration Form
+        </h2>
         <div class="row">
                 <div class="col-md-8">
                     <div class="card">
@@ -79,6 +79,14 @@
                                             <input class="form-control" name="phone_no" type="text" placeholder="Enter Phone Number" value="{{$user->phone_no}}" disabled/>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="form-group">
+                                          <label class="control-label">Postal Address</label> <br/>
+                                          <textarea class="form-control" name="postal_address" rows="5" cols="10" disabled style="resize:none"> {{$user->postal_address}}</textarea>
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="row">
                                   <div class="col-md-12">
@@ -124,20 +132,66 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr/> <h4>Next Of Kin Details</h4>
+                                <br/>
                                 <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="form-group">
-                                          <label class="control-label"> Proposed Investement Amount(Multiple of 3 million) </label>
-                                          <input class="form-control" name="proposed_investment_amount" placeholder="Proposed Investment Amount" value="{{old('proposed_investment_amount')}}"/>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="form-group">
-                                          <label class="control-label">Amount Paid </label>
-                                          <input class="form-control" name="amount_paid" placeholder="Amount Paid" value="{{old('amount_paid')}}"/>
-                                      </div>
-                                  </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label"> First Name</label> <br/>
+                                            <input class="form-control" name="next_of_kin_first_name" type="text" placeholder="Next Of Kin First Name" value="{{old('next_of_kin_first_name')}}"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Middle Name </label>
+                                            <input class="form-control" name="next_of_kin_middle_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_middle_name')}}"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Last Name</label>
+                                            <input class="form-control" name="next_of_kin_last_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_last_name')}}"/>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label"> Relationship</label> <br/>
+                                            <input class="form-control" name="relationship" type="text" placeholder="Relationship with Next Of Kin" value="{{old('relationship')}}"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Phone Number </label>
+                                            <input class="form-control" name="next_of_kin_phone_no" type="text" placeholder="Next Of Kin Phone Number" value="{{old('phone_no')}}"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Alternate Phone Number</label>
+                                            <input class="form-control" name="next_of_kin_alt_phone" type="text" placeholder="Alternate" value="{{old('alt_phone_no')}}"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label"> Email</label> <br/>
+                                            <input class="form-control" name="next_of_kin_email" type="email" placeholder="Email Address" value="{{old('next_of_kin_email')}}"/>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label">Address </label>
+                                            <textarea name="next_of_kin_address" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <h4>Bank Details</h4>
                                 <div class="row">
                                   <div class="col-md-4">
                                       <div class="form-group">
@@ -158,6 +212,39 @@
                                       </div>
                                   </div>
                                 </div>
+                                <hr/>
+                                <div class="row">
+                                  <div class="col-md-4">
+                                      <div class="form-group">
+                                          <label class="control-label"> Number of Hectares (Ha) </label>
+                                          <input class="form-control" name="number_of_hectares" placeholder="Number of Hectares" value="{{old('number_of_hectares')}}"/>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <div class="form-group">
+                                          <label class="control-label"> Proposed Investement Amount(Multiple of 3 million) </label>
+                                          <input class="form-control" name="proposed_investment_amount" placeholder="Proposed Investment Amount" value="{{old('proposed_investment_amount')}}"/>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <div class="form-group">
+                                          <label class="control-label">Amount Paid </label>
+                                          <input class="form-control" name="amount_paid" placeholder="Amount Paid" value="{{old('amount_paid')}}"/>
+                                      </div>
+                                  </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <select name="communication_channel" class="form-control">
+                                      <option value="sms">SMS</option>
+                                      <option value="phone">Phone Call</option>
+                                      <option value="email">Email</option>
+                                      <option value="skype">Skype</option>
+                                      <option value="letter">Physical Letter</option>
+                                    </select>
+                                  </div>
+                                </div> <br/>
                                 <div class="row">
                                   <div class="form-group col-md-6">
                                     <label for="form_checkbox">
@@ -202,9 +289,9 @@
                 </div>
 
             </div>
-            @include('layouts.sessions')
-            @include('layouts.errors')
         </div>
+        @include('layouts.sessions')
+        @include('layouts.errors')
       </div>
     @endif
 @endsection

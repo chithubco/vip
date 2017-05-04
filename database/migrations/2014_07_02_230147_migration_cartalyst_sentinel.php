@@ -105,6 +105,9 @@ class MigrationCartalystSentinel extends Migration
             $table->boolean('status')->default(0);
             $table->string('profile_picture_path')->nullable();
             $table->text('address')->nullable();
+            $table->text('postal_address')->nullable();
+            $table->string('title')->nullable();
+            $table->string('sex')->nullable();
             $table->timestamps();
 
             $table->engine = 'InnoDB';

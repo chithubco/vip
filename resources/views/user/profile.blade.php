@@ -38,6 +38,24 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
+                                        <label class="control-label">Title </label>
+                                        <input class="form-control" name="title" type="text" placeholder="Mr/Mrs/Miss/Pastor..." value="{{$user->title}}"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Sex </label>
+                                        <select name="sex" class="form-control">
+                                          <option value="M">Male</option>
+                                          <option value="F">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
                                         <label class="control-label">Email Address </label>
                                         <input class="form-control" name="email" type="text" placeholder="Enter Email" value="{{$user->email}}"/>
                                     </div>
@@ -55,6 +73,14 @@
                                     <div class="form-group">
                                         <label class="control-label"> Pick a picture</label> <br/>
                                         <input class="form-control" type="file" name="profile_picture_path" accept="image/*" value="{{$user->profile_picture_path}}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Postal Address</label> <br/>
+                                        <textarea class="form-control" name="postal_address"> {{$user->postal_address}}</textarea>
                                     </div>
                                 </div>
                             </div>

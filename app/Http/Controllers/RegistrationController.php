@@ -58,6 +58,14 @@
 						"bank_name" => "required",
 						"account_name" => "required",
 						"account_number" => "required",
+						"next_of_kin_first_name" => "required",
+						"next_of_kin_middle_name" => "required",
+						"next_of_kin_last_name" => "required",
+						"relationship" => "required",
+						"phone_no" => "required",
+						"next_of_kin_address" => "required",
+						"number_of_hectares" => "required",
+						"communication_channel" => "required",
 					]);
 					$reg = $this->repo->create($request);
 					if($reg->id){

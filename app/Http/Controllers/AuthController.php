@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 class AuthController extends Controller
 {
   public function index(){
-    return view('index');
+    // return view('index');
+    return view('login');
   }
    public function getLogin(){
      return view('login');
@@ -68,11 +69,11 @@ class AuthController extends Controller
         try {
             Sentinel::logout(null, true);
             session()->flush();
-            return redirect()->route('home');
+            return redirect()->route('get_login');
         } catch (\Cartalyst\Sentinel\Checkpoints\NotActivatedException $e) {
-            return redirect()->route('home');
+            return redirect()->route('get_login');
         } catch (\ErrorException $e) {
-            return redirect()->route('home')
+            return redirect()->route('get_login')
                 ->with('error', 'Session expired. Login again!');
         }
     }

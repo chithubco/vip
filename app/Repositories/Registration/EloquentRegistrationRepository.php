@@ -16,6 +16,15 @@ class EloquentRegistrationRepository implements RegistrationContract
     $registration->bank_name = $request->bank_name;
     $registration->account_name = $request->account_name;
     $registration->account_number = $request->account_number;
+    $registration->next_of_kin_first_name = $request->next_of_kin_first_name;
+    $registration->next_of_kin_middle_name = $request->next_of_kin_middle_name;
+    $registration->next_of_kin_last_name = $request->next_of_kin_last_name;
+    $registration->next_of_kin_relationship = $request->relationship;
+    $registration->next_of_kin_phone = $request->next_of_kin_phone;
+    $registration->next_of_kin_alt_phone = $request->next_of_kin_alt_phone;
+    $registration->next_of_kin_address = $request->next_of_kin_address;
+    $registration->number_of_hectares = $request->number_of_hectares;
+    $registration->communication_channel = $request->communication_channel;
 
     $user = Sentinel::getUser();
     $registration->user_id = $user->id;
