@@ -37,7 +37,7 @@
 <!-- CSS | Theme Color -->
 <link href="{{asset('css/colors/theme-skin-red.css')}}" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="{{asset('tel/build/css/intlTelInput.css')}}">
-<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,7 +64,7 @@
                 </div>
               </div>
                 <div class="row">
-                  <h4 class="text-theme-colored mt-0" style="width:100%"> Login</h4>
+                  <h4 class="text-theme-colored mt-0" style="width:100%"> VICAMPRO SERVICE AGREEMENT/TERMS OF USE</h4>
                   <hr/>
                 </div>
                 <div class="row"> <h3>ACCEPTANCE OF TERMS</h3>
@@ -91,7 +91,7 @@
                   User shall be responsible for obtaining and maintaining all telephone, computer hardware, software and other
                   equipment needed for access to and use of www.vicampro.com and all charges related thereto.
                 </div>
-                <div class="row"> <h3>5. USER CONDUCT</h3>
+                <div class="row"> <h3>USER CONDUCT</h3>
                   <l1> User shall use www.vicampro.com for lawful purposes only. User shall not post or transmit through www.vicampro.com any material
                      which violates or infringes in any way upon the rights of others, which is unlawful, threatening, abusive, defamatory,
                      invasive of privacy or publicity rights, vulgar, obscene, profane or otherwise objectionable, which encourages conduct that

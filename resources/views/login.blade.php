@@ -37,7 +37,7 @@
 <!-- CSS | Theme Color -->
 <link href="{{asset('css/colors/theme-skin-red.css')}}" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="{{asset('tel/build/css/intlTelInput.css')}}">
-<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,7 +117,7 @@
                     <button type="submit" class="btn btn-dark btn-sm">Login</button>
                   </div>
                 </form>
-                <small> Don't have an account yet? <a href="{{route('register')}}"> Register </a> </small>
+                <h5><small> Don't have an account yet? <a style="color:red;" href="{{route('register')}}"> Register </a> </small></h5>
               </div>
             </div>
           </div>

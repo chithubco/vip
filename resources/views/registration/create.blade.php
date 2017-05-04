@@ -237,8 +237,11 @@
                                   </div>
                                   <div class="col-md-4">
                                       <div class="form-group">
-                                          <label class="control-label"> Proposed Investment Amount </label>
+                                        <label class="control-label"> Proposed Investment Amount </label>
+                                        <div class="input-group">
+                                          <div class="input-group-addon">&#8358;</div>
                                           <input id="amount" class="form-control" name="proposed_investment_amount" placeholder="Proposed Investment Amount" value="{{old('proposed_investment_amount')}}"/>
+                                        </div>
                                       </div>
                                   </div>
                                   <div class="col-md-4">

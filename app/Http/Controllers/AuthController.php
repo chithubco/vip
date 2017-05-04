@@ -50,7 +50,7 @@ class AuthController extends Controller
                 else if (Sentinel::getUser()->inRole('user')) {
                     session(['currentUserRole' => 'user']);
                     session(['currentUserId' => $user->id]);
-                    return redirect()->route('user_dashboard');
+                    return redirect()->route('user_profile');
                 }
 
 
