@@ -32,6 +32,7 @@ Route::group(['prefix' => 'personal'], function () {
     Route::post('/registration', 'RegistrationController@store')->name('save_registration');
     Route::get('/settings', 'UserController@settings')->name('settings');
     Route::post('/save/password', 'UserController@changePassword')->name('save_settings');
+    Route::get('download', 'UserController@downloadPdf')->name('download_pdf');
 });
 
 Route::group(['prefix' => 'admin'], function () {

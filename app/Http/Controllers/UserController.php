@@ -63,4 +63,9 @@ class UserController extends Controller
               ->with('success', 'Password updated successfully');
     }
   }
+
+  public function downloadPdf(){
+    $file= public_path(). "/pdf/form.pdf";
+   return \Response::download($file);
+  }
 }

@@ -23,7 +23,7 @@
                 <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Subscribe Now <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="demo" class="collapse">
                   <li>
-                    <a href="{{route('registration')}}"><i class="fa fa-pencil-square-o"></i>Download Form(offline) </a>
+                    <a href="{{route('download_pdf')}}"><i class="fa fa-pencil-square-o"></i>Download Form(offline) </a>
                   </li>
                   <li>
                     <a href="{{route('registration')}}"><i class="fa fa-pencil-square-o"></i>Fill Form Online </a>
