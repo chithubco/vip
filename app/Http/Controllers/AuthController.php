@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 use Cartalyst\Sentinel\Laravel\Facades\Sentinel;
 use Cartalyst\Sentinel\Checkpoints\NotActivatedException;
 use Illuminate\Http\Request;
+use App\Library\Email;
+use DB;
+use Mail;
+use App\Mail\PasswordReset;
+use App\User;
 
 class AuthController extends Controller
 {
@@ -75,6 +80,48 @@ class AuthController extends Controller
         } catch (\ErrorException $e) {
             return redirect()->route('get_login')
                 ->with('error', 'Session expired. Login again!');
+        }
+    }
+
+    public function recover(){
+      return view('password.emailview');
+    }
+
+    public function sendEmail(Request $request){
+      // $user = DB::table('users')->where('email', $request->email)->first();
+      $user = User::where('email', $request->email)->first();
+      if(!$user){
+        return back()
+              ->withInput()
+              ->with('error', 'Your email doesn"t exist on our database');
+      }else{
+      Mail::to($user)->send(new PasswordReset($user));
+      // $email = new Email();
+      // $e = $email->passwordRecovery($user, $request->email);
+      return back()
+                ->withInput()
+		    	      ->with('success', 'Check your email!!!');
+        }
+    }
+
+    public function newPasswordView($id, $code){
+      return view('password.recover')->with('id', $id)->with('code', $code);
+    }
+
+    public function doPasswordRecovery(Request $request){
+      $this->validate($request, [
+            'password' => 'required',
+            'confirm_password' => 'required',
+        ]);
+        if($request->password != $request->confirm_password){
+          return back()
+                  ->with('error', 'The passwords don"t match');
+        }else{
+          $user = Sentinel::findById($request->id);
+          $user->password =  bcrypt($request->password);
+          $user->save();
+            return redirect()->route('get_login')
+                    ->with('success', 'Password updated successfully');
         }
     }
 }
