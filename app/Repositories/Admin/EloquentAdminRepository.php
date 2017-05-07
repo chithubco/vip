@@ -49,10 +49,16 @@ class EloquentAdminRepository implements AdminContract
           'phone_no' => $request->phone_no,
           'email' => $request->email,
           'address' => $request->address,
+          'address_city' => $request->address_city,
+          'address_state' => $request->address_state,
+          'address_country' => $request->address_country,
           'profile_picture_path' => '/'.$destination.'/'.$fileName,
           'title'=> $request->title,
           'sex' => $request->sex,
           'postal_address'=> $request->postal_address,
+          'postal_address_city'=> $request->postal_address_city,
+          'postal_address_state'=> $request->postal_address_state,
+          'postal_address_country'=> $request->postal_address_country,
       ];
       $user = Sentinel::update($user, $credentials);
       return $user;
