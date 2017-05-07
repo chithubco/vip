@@ -62,7 +62,7 @@
 						"next_of_kin_middle_name" => "required",
 						"next_of_kin_last_name" => "required",
 						"relationship" => "required",
-						"phone_number" => "required",
+						"next_of_kin_phone_number" => "required",
 						"next_of_kin_address" => "required",
 						"number_of_hectares" => "required",
 						"communication_channel" => "required",
