@@ -99,7 +99,7 @@
                                   <div class="col-md-12">
                                       <div class="form-group">
                                           <label class="control-label">Postal Address</label> <br/>
-                                          <textarea class="form-control" name="postal_address" rows="5" cols="10" disabled style="resize:none"> {{$user->postal_address}}</textarea>
+                                          <textarea class="form-control" name="postal_address" rows="5" cols="10" disabled style="resize:none"> {{$user->postal_address}}, {{$user->postal_address_city}}, {{$user->postal_address_state}}, {{$user->postal_address_country}}</textarea>
                                       </div>
                                   </div>
                                 </div>
@@ -107,22 +107,10 @@
                                   <div class="col-md-12">
                                       <div class="form-group">
                                           <label class="control-label"> Address</label> <br/>
-                                          <textarea class="form-control" name="address" rows="5" cols="10" disabled style="resize:none"> {{$user->address}}</textarea>
+                                          <textarea class="form-control" name="address" rows="5" cols="10" disabled style="resize:none"> {{$user->address}}, {{$user->address_city}}, {{$user->address_state}}, {{$user->address_country}}</textarea>
                                       </div>
                                   </div>
                                 </div>
-                                @foreach($eois as $eoi)
-                                  @if($eoi->user_id == $user->id)
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label class="control-label">Postal Address </label>
-                                                <textarea class="form-control" name="postal_address" rows="5" cols="10" style="resize:none" disabled="true">{{$eoi->postal_address}}</textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                  @endif
-                                @endforeach
                                 <small>If you need to make changes to the information above, <a href="{{route('user_profile')}}">update</a> your profile.</small>
                                 <hr/>
                                 <div class="row">
