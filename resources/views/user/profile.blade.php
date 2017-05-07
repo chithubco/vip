@@ -88,19 +88,19 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">City (Postal Address)</label> <br/>
-                                        <input class="form_control" name="postal_address_city" placeholder="City for postal address" value="{{$user->postal_address_city}}"/>
+                                        <input class="form-control" name="postal_address_city" placeholder="City for postal address" value="{{$user->postal_address_city}}"/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">State (Postal Address)</label> <br/>
-                                        <input class="form_control" name="postal_address_state" placeholder="State for postal address" value="{{$user->postal_address_state}}"/>
+                                        <input class="form-control" name="postal_address_state" placeholder="State for postal address" value="{{$user->postal_address_state}}"/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Country (Postal Address)</label> <br/>
-                                        <input class="form_control" name="postal_address_country" placeholder="Country for postal address" value="{{$user->postal_address_country}}"/>
+                                        <input class="form-control" name="postal_address_country" placeholder="Country for postal address" value="{{$user->postal_address_country}}"/>
                                     </div>
                                 </div>
                             </div>
@@ -116,19 +116,19 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">City (Address)</label> <br/>
-                                        <input class="form_control" name="address_city" placeholder="City for address" value="{{$user->address_city}}"/>
+                                        <input class="form-control" name="address_city" placeholder="City for address" value="{{$user->address_city}}"/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">State (Address)</label> <br/>
-                                        <input class="form_control" name="address_state" placeholder="State for address" value="{{$user->address_state}}"/>
+                                        <input class="form-control" name="address_state" placeholder="State for address" value="{{$user->address_state}}"/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Country (Address)</label> <br/>
-                                        <input class="form_control" name="address_country" placeholder="Country for address" value="{{$user->address_country}}"/>
+                                        <input class="form-control" name="address_country" placeholder="Country for address" value="{{$user->address_country}}"/>
                                     </div>
                                 </div>
                             </div>
