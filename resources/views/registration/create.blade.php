@@ -252,39 +252,12 @@
                                   </div>
                                 </div> <br/>
                                 <div class="row">
-                                  <div class="form-group col-md-6">
+                                  <div class="form-group col-md-12">
                                     <label for="form_checkbox">
-                                      <input id="form_checkbox" name="terms" type="checkbox" data-toggle="modal" data-target="#myModal">
-                                      I Accept Terms </label>
+                                      <input id="form_checkbox" name="terms" type="checkbox">
+                                      By ticking this box, you agree to the <a style="color:red;" href="{{route('terms')}}" target="_blank">terms </a> for registration.
+                                       </label>
                                   </div>
-
-                                  <!-- terms modal -->
-                                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                    <div class="modal-dialog" role="document">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title text-theme-colored text-center" id="myModalLabel">General Terms And Conditions</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                          <div class="col-md-12">
-                                            <ul class="list-icon font theme-colored rounded">
-                                              <li><i class="fa fa-hand-o-right"></i>Prospective Investor must be above the age of 18 years, although investment can be purchased and held on behalf of a minor.</li>
-                                              <li><i class="fa fa-hand-o-right"></i>Prospective Investor can invest in either Equity or Debt or both at the same time.</li>
-                                              <li><i class="fa fa-hand-o-right"></i>The minimum investment for the debt is N3m for 1ha and maximum investment is N3b for 1000ha.</li>
-                                              <li><i class="fa fa-hand-o-right"></i>Each investor is at liberty to visit the field and inspect the progress of work at the site at anytime.</li>
-                                              <li><i class="fa fa-hand-o-right"></i>Repayment of Principal invested and interest is at the end of the 12 Months period from the date on the certificate.</li>
-                                            </ul>
-                                          </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn btn-default" data-dismiss="modal" id="modal_button">Accept</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
                                 <br/> <br/>
                             <div class="form-group">
                               <button class="btn btn-primary btn-lg btn-block mt-15" type="submit" id="submit">Register</button>

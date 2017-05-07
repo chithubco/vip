@@ -33,6 +33,8 @@ Route::group(['prefix' => 'personal'], function () {
     Route::get('/settings', 'UserController@settings')->name('settings');
     Route::post('/save/password', 'UserController@changePassword')->name('save_settings');
     Route::get('download', 'UserController@downloadPdf')->name('download_pdf');
+    Route::get('/registration/terms', 'UserController@registrationTerms')->name('registration_terms');
+
 });
 
 Route::group(['prefix' => 'admin'], function () {

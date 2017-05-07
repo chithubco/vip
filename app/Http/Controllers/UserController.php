@@ -68,4 +68,8 @@ class UserController extends Controller
     $file= public_path(). "/pdf/form.pdf";
    return \Response::download($file);
   }
+
+  public function registrationTerms(){
+    return view('user.terms');
+  }
 }

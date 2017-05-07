@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => 'vicampro-vip',
-        'secret' => 'ac4b4800dde9450c11e48e246328a788',
+      'domain' => env('MAILGUN_DOMAIN'),
+      'secret' => env('MAILGUN_SECRET'),
     ],
 
     'ses' => [
