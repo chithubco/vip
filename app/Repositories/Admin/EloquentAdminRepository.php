@@ -38,11 +38,31 @@ class EloquentAdminRepository implements AdminContract
     }
 
     public function updateUserProfile($request){
+      $user = Sentinel::getUser();
+      if($request->file('profile_picture_path')==null){
+        $credentials = [
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'phone_no' => $request->phone_no,
+            'email' => $request->email,
+            'address' => $request->address,
+            'address_city' => $request->address_city,
+            'address_state' => $request->address_state,
+            'address_country' => $request->address_country,
+            'title'=> $request->title,
+            'sex' => $request->sex,
+            'postal_address'=> $request->postal_address,
+            'postal_address_city'=> $request->postal_address_city,
+            'postal_address_state'=> $request->postal_address_state,
+            'postal_address_country'=> $request->postal_address_country,
+        ];
+        $user = Sentinel::update($user, $credentials);
+        return $user;
+      }else{
         $destination = 'uploads/profile';
         $extension = $request->file('profile_picture_path')->getClientOriginalExtension();
         $fileName = rand(1111111, 9999999).'.'.$extension;
         $request->file('profile_picture_path')->move($destination, $fileName);
-      $user = Sentinel::getUser();
       $credentials = [
           'first_name' => $request->first_name,
           'last_name' => $request->last_name,
@@ -62,6 +82,8 @@ class EloquentAdminRepository implements AdminContract
       ];
       $user = Sentinel::update($user, $credentials);
       return $user;
+      }
+
     }
 
     public function allUsers(){

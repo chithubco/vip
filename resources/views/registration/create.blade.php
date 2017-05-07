@@ -255,7 +255,7 @@
                                   <div class="form-group col-md-12">
                                     <label for="form_checkbox">
                                       <input id="form_checkbox" name="terms" type="checkbox">
-                                      By ticking this box, you agree to the <a style="color:red;" href="{{route('terms')}}" target="_blank">terms </a> for registration.
+                                      By ticking this box, you agree to the <a style="color:red;" href="{{route('registration_terms')}}" target="_blank">terms </a> for registration.
                                        </label>
                                   </div>
                                 <br/> <br/>

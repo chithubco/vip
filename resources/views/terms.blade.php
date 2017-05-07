@@ -11,7 +11,7 @@
 <meta name="author" content="Vicampro" />
 
 <!-- Page Title -->
-  <title>Login | VIP| Vicampro Investment Program</title>
+  <title>Terms and Conditions | VIP| Vicampro Investment Program</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="{{asset('img/logon.png')}}" rel="shortcut icon" type="image/png">
