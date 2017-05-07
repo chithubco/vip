@@ -54,7 +54,7 @@
         <div class="row">
                 <div class="col-md-8">
                     <div class="card">
-                        {{Form::open(array('route' => 'save_registration', 'method' => 'POST', 'files' => 'true'))}}
+                        {{Form::open(array('route' => 'save_registration', 'method' => 'POST', 'files' => 'true', 'onsubmit'=>'return validateForm()'))}}
                             {{ csrf_field() }}
                             <div class="content">
                               <div class="row">
@@ -117,7 +117,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label"> Occupation</label> <br/>
-                                            <input class="form-control" name="occupation" type="text" placeholder="occupation" value="{{old('occupation')}}"/>
+                                            <input class="form-control" name="occupation" type="text" placeholder="occupation" value="{{old('occupation')}}" required/>
                                         </div>
                                     </div>
                                 </div>
@@ -125,13 +125,13 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="control-label"> Alternate Phone Number</label> <br/>
-                                            <input class="form-control" name="phone" type="text" placeholder="Alternate Phone Number" value="{{old('phone')}}"/>
+                                            <input class="form-control" name="phone" type="text" placeholder="Alternate Phone Number" value="{{old('phone')}}" required/>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="control-label">Alternate Email </label>
-                                            <input class="form-control" name="alt_email" type="email" placeholder="Alternate Email" value="{{old('alt_email')}}"/>
+                                            <input class="form-control" name="alt_email" type="email" placeholder="Alternate Email" value="{{old('alt_email')}}" required/>
                                         </div>
                                     </div>
                                 </div>
@@ -141,19 +141,19 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label"> First Name</label> <br/>
-                                            <input class="form-control" name="next_of_kin_first_name" type="text" placeholder="Next Of Kin First Name" value="{{old('next_of_kin_first_name')}}"/>
+                                            <input class="form-control" name="next_of_kin_first_name" type="text" placeholder="Next Of Kin First Name" value="{{old('next_of_kin_first_name')}}" required/>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label">Middle Name </label>
-                                            <input class="form-control" name="next_of_kin_middle_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_middle_name')}}"/>
+                                            <input class="form-control" name="next_of_kin_middle_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_middle_name')}}" required/>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label">Last Name</label>
-                                            <input class="form-control" name="next_of_kin_last_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_last_name')}}"/>
+                                            <input class="form-control" name="next_of_kin_last_name" type="text" placeholder="Next Of Kin Middle Name" value="{{old('next_of_kin_last_name')}}" required/>
                                         </div>
                                     </div>
                                 </div>
@@ -161,19 +161,19 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label"> Relationship</label> <br/>
-                                            <input class="form-control" name="relationship" type="text" placeholder="Relationship with Next Of Kin" value="{{old('relationship')}}"/>
+                                            <input class="form-control" name="relationship" type="text" placeholder="Relationship with Next Of Kin" value="{{old('relationship')}}" required/>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label">Phone Number </label>
-                                            <input class="form-control" name="next_of_kin_phone_number" type="text" placeholder="Next Of Kin Phone Number" value="{{old('next_of_kin_phone_number')}}"/>
+                                            <input class="form-control" name="next_of_kin_phone_number" type="text" placeholder="Next Of Kin Phone Number" value="{{old('next_of_kin_phone_number')}}" required/>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="control-label">Alternate Phone Number</label>
-                                            <input class="form-control" name="next_of_kin_alt_phone" type="text" placeholder="Alternate" value="{{old('next_of_kin_alt_phone')}}"/>
+                                            <input class="form-control" name="next_of_kin_alt_phone" type="text" placeholder="Alternate" value="{{old('next_of_kin_alt_phone')}}" required/>
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="control-label"> Email</label> <br/>
-                                            <input class="form-control" name="next_of_kin_email" type="email" placeholder="Email Address" value="{{old('next_of_kin_email')}}"/>
+                                            <input class="form-control" name="next_of_kin_email" type="email" placeholder="Email Address" value="{{old('next_of_kin_email')}}" required/>
                                         </div>
                                     </div>
                                   </div>
@@ -189,7 +189,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="control-label">Address </label>
-                                            <textarea name="next_of_kin_address" class="form-control"></textarea>
+                                            <textarea name="next_of_kin_address" class="form-control" required></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -199,19 +199,19 @@
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label"> Bank Name </label>
-                                          <input class="form-control" name="bank_name" placeholder="Bank Name" value="{{old('bank_name')}}"/>
+                                          <input class="form-control" name="bank_name" placeholder="Bank Name" value="{{old('bank_name')}}" required/>
                                       </div>
                                   </div>
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label">Account Name </label>
-                                          <input class="form-control" name="account_name" placeholder="Account Name" value="{{old('account_name')}}"/>
+                                          <input class="form-control" name="account_name" placeholder="Account Name" value="{{old('account_name')}}" required/>
                                       </div>
                                   </div>
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label">Account Number </label>
-                                          <input class="form-control" name="account_number" placeholder="Account Number" value="{{old('account_number')}}"/>
+                                          <input class="form-control" name="account_number" placeholder="Account Number" value="{{old('account_number')}}" required/>
                                       </div>
                                   </div>
                                 </div>
@@ -220,7 +220,7 @@
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label"> Number of Hectares (Ha) </label>
-                                          <input id="hectares" oninput="calculate()" class="form-control" name="number_of_hectares" placeholder="Number of Hectares" value="{{old('number_of_hectares')}}"/>
+                                          <input id="hectares" oninput="calculate()" class="form-control" name="number_of_hectares" placeholder="Number of Hectares" value="{{old('number_of_hectares')}}" required/>
                                       </div>
                                   </div>
                                   <div class="col-md-4">
@@ -235,14 +235,14 @@
                                   <div class="col-md-4">
                                       <div class="form-group">
                                           <label class="control-label">Amount Paid </label>
-                                          <input class="form-control" name="amount_paid" placeholder="Amount Paid" value="{{old('amount_paid')}}"/>
+                                          <input class="form-control" name="amount_paid" placeholder="Amount Paid" value="{{old('amount_paid')}}" required/>
                                       </div>
                                   </div>
                                 </div>
                                 <hr/>
                                 <div class="row">
                                   <div class="col-md-6">
-                                    <select name="communication_channel" class="form-control">
+                                    <select name="communication_channel" class="form-control" required>
                                       <option value="sms">SMS</option>
                                       <option value="phone">Phone Call</option>
                                       <option value="email">Email</option>
@@ -308,5 +308,12 @@
       document.getElementById("amount").value = amount;
       console.log(document.getElementById("amount").innerHTML);
     }
+    function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+          }
+      }
     </script>
 @endsection

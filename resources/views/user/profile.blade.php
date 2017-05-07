@@ -24,14 +24,14 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">First Name </label>
-                                        <input class="form-control" name="first_name" type="text" placeholder="Enter First name" value="{{$user->first_name}}"/>
+                                        <input class="form-control" name="first_name" type="text" placeholder="Enter First name" value="{{$user->first_name}}" required/>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">Last Name </label>
-                                        <input class="form-control" name="last_name" type="text" placeholder="Enter Last Name" value="{{$user->last_name}}"/>
+                                        <input class="form-control" name="last_name" type="text" placeholder="Enter Last Name" value="{{$user->last_name}}" required/>
                                     </div>
                                 </div>
                             </div>
@@ -39,14 +39,14 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">Title </label>
-                                        <input class="form-control" name="title" type="text" placeholder="Mr/Mrs/Miss/Pastor..." value="{{$user->title}}"/>
+                                        <input class="form-control" name="title" type="text" placeholder="Mr/Mrs/Miss/Pastor..." value="{{$user->title}}" required/>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">Sex </label>
-                                        <select name="sex" class="form-control">
+                                        <select name="sex" class="form-control" required>
                                           <option value="M">Male</option>
                                           <option value="F">Female</option>
                                         </select>
@@ -57,7 +57,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">Email Address </label>
-                                        <input class="form-control" name="email" type="text" placeholder="Enter Email" value="{{$user->email}}"/>
+                                        <input class="form-control" name="email" type="text" placeholder="Enter Email" value="{{$user->email}}" required/>
                                     </div>
                                 </div>
 
@@ -80,7 +80,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label class="control-label">Postal Address</label> <br/>
-                                        <textarea class="form-control" name="postal_address"> {{$user->postal_address}}</textarea>
+                                        <textarea class="form-control" name="postal_address" required> {{$user->postal_address}}</textarea>
                                     </div>
                                 </div>
                             </div>
@@ -88,19 +88,19 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">City (Postal Address)</label> <br/>
-                                        <input class="form-control" name="postal_address_city" placeholder="City for postal address" value="{{$user->postal_address_city}}"/>
+                                        <input class="form-control" name="postal_address_city" placeholder="City for postal address" value="{{$user->postal_address_city}}" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">State (Postal Address)</label> <br/>
-                                        <input class="form-control" name="postal_address_state" placeholder="State for postal address" value="{{$user->postal_address_state}}"/>
+                                        <input class="form-control" name="postal_address_state" placeholder="State for postal address" value="{{$user->postal_address_state}}" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Country (Postal Address)</label> <br/>
-                                        <input class="form-control" name="postal_address_country" placeholder="Country for postal address" value="{{$user->postal_address_country}}"/>
+                                        <input class="form-control" name="postal_address_country" placeholder="Country for postal address" value="{{$user->postal_address_country}}" required/>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label class="control-label"> Address</label> <br/>
-                                        <textarea class="form-control" name="address"> {{$user->address}}</textarea>
+                                        <textarea class="form-control" name="address" required> {{$user->address}}</textarea>
                                     </div>
                                 </div>
                             </div>
@@ -116,19 +116,19 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">City (Address)</label> <br/>
-                                        <input class="form-control" name="address_city" placeholder="City for address" value="{{$user->address_city}}"/>
+                                        <input class="form-control" name="address_city" placeholder="City for address" value="{{$user->address_city}}" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">State (Address)</label> <br/>
-                                        <input class="form-control" name="address_state" placeholder="State for address" value="{{$user->address_state}}"/>
+                                        <input class="form-control" name="address_state" placeholder="State for address" value="{{$user->address_state}}" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Country (Address)</label> <br/>
-                                        <input class="form-control" name="address_country" placeholder="Country for address" value="{{$user->address_country}}"/>
+                                        <input class="form-control" name="address_country" placeholder="Country for address" value="{{$user->address_country}}" required/>
                                     </div>
                                 </div>
                             </div>
