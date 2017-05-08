@@ -114,6 +114,7 @@ class MigrationCartalystSentinel extends Migration
             $table->string('postal_address_country')->nullable();
             $table->string('title')->nullable();
             $table->string('sex')->nullable();
+            $table->boolean('login_status')->default(0);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

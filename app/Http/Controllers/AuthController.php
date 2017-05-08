@@ -41,6 +41,7 @@ class AuthController extends Controller
         }
         else{
 
+
                 Sentinel::login($user);
                 session(['currentUser' => $user]);
 
@@ -55,7 +56,15 @@ class AuthController extends Controller
                 else if (Sentinel::getUser()->inRole('user')) {
                     session(['currentUserRole' => 'user']);
                     session(['currentUserId' => $user->id]);
-                    return redirect()->route('user_profile');
+                    if($user->login_status == 0){
+                      $credentials = [
+                        'login_status' => 1
+                      ];
+                      Sentinel::update($user, $credentials);
+                      return redirect()->route('user_profile');
+                    }else{
+                      return redirect()->route('user_dashboard');
+                    }
                 }
 
 

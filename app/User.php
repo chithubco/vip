@@ -19,6 +19,7 @@ class User extends \Cartalyst\Sentinel\Users\EloquentUser
         'address', 'profile_picture_path', 'title', 'sex', 'postal_address',
         'address_city', 'address_state', 'address_country',
         'postal_address_city', 'postal_address_state', 'postal_address_country',
+        'login_status',
     ];
 
     /**
