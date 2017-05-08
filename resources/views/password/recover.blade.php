@@ -108,7 +108,7 @@
                     </div>
                   </div>
                   <input name="id" class="form-control" type="hidden" value="{{$id}}">
-                  <input name="key" class="form-control" type="hidden" value="{{$code}}">
+                  <!-- <input name="key" class="form-control" type="hidden" value="{{$code}}"> -->
                   <div class="form-group pull-right mt-10">
                     <button type="submit" class="btn btn-dark btn-sm">Change Password</button>
                   </div>

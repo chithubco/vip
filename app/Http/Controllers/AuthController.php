@@ -113,8 +113,8 @@ class AuthController extends Controller
         }
     }
 
-    public function newPasswordView($id, $code){
-      return view('password.recover')->with('id', $id)->with('code', $code);
+    public function newPasswordView($id){
+      return view('password.recover')->with('id', $id);
     }
 
     public function doPasswordRecovery(Request $request){
