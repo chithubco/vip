@@ -52,6 +52,6 @@ Route::post('/save/message', 'MessageController@store')->name('save_message');
 Route::post('/send/mail', 'MessageController@sendMail')->name('send_mail');
 Route::get('terms', 'AdminController@terms')->name('terms');
 Route::get('/recover', 'AuthController@recover')->name('recover');
-Route::post('/recover', 'AuthController@sendEmail')->name('send_email');
+Route::post('/recover/email', 'AuthController@sendEmail')->name('send_email');
 Route::get('password/recovery/{id}/{key}', 'AuthController@newPasswordView')->name('password_recovery');
 Route::post('password/recovery', 'AuthController@doPasswordRecovery')->name('do_password_recovery');
