@@ -37,13 +37,57 @@
                   </head>
                   <tbody>
                     <tr><td>Proposed Investment Amount</td><td>{{$registration->proposed_investment_amount}}</td></tr>
-                    <tr><td>Amount Paid</td><td>{{$registration->amount_paid}}</td></tr>
                     <tr><td>Bank Name</td><td>{{$registration->bank_name}}</td></tr>
                     <tr><td>Account Name</td><td>{{$registration->account_name}}</td></tr>
                     <tr><td>Account Number</td><td>{{$registration->account_number}}</td></tr>
                   </tbody>
               </table>
           </div>
+          <hr/>
+          <h3>Payment Instructions</h3>
+            <h4>Online</h4>
+          <ul>
+            <li>Through	your	internet	banking	platform,	you	can	make	payments	to	the	following	accounts
+              <h5>Online</h5>
+              <h6>Access Bank</h6>
+              <p>Account #:	0717814556</p>
+              <p>Account Name:Vicampro Farms LTD</p>
+
+              <h6>GTBank</h6>
+              <p>Account #:	0227447157</p>
+              <p>Account Name:Vicampro Farms LTD</p>
+            </li>
+            <li>
+              When	making	payment,	in	the	Narration/Comment	section	fill	in	your	name/investment
+              plan	chosen.	(E.g.	SAMUEL	ASAMAIGE/VIP	ROI	INTEREST).
+            </li>
+          </ul>
+
+          <h4>Offline</h4>
+          <ul>
+            <li>Walk	into	your	bank	and	request	for	the	transfer	form</li>
+            <li>You	can	make	the	transfer	to	either	of	our	accounts.</li>
+
+          <h6>Access Bank</h6>
+          <p>Account #:	0717814556</p>
+          <p>Account Name:Vicampro Farms LTD</p>
+
+          <h6>GTBank</h6>
+          <p>Account #:	0227447157</p>
+          <p>Account Name:Vicampro Farms LTD</p>
+          
+            <li>
+              When	making	payment,	in	the	Narration/Comment	section	fill	in	your	name/investment
+              plan	chosen.	(E.g.	SAMUEL	ASAMAIGE/VIP	ROI	INTEREST).
+            </li>
+            <li>After	24hrs,	Account	confirms	payment	and	changes	the	payment	status	to	confirmed.</li>
+	          <li>Get	a	notification	email/SMS	confirming	your	subscription	to	the	VIP	project	</li>
+            <li>
+              For	further	information	or	inquiries,	please	contact: <br/>
+              Yaks	08054720330 |	Ugo	08150856674	|	Chizoba	08150856683	|	Samuel	08150856688 <br/>
+              <small>Email: vip@vicampro.com		www.vicamprovip.com </small>
+            </li>
+          </ul>
       </div>
     </div>
   @else
