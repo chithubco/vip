@@ -14,7 +14,7 @@
   <title>Login | VIP| Vicampro Investment Program</title>
 
 <!-- Favicon and Touch Icons -->
-<link href="{{asset('img/logon.png')}}" rel="shortcut icon" type="image/png">
+<link href="{{asset('images/logon.png')}}" rel="shortcut icon" type="image/png">
 
 <!-- Stylesheet -->
 <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
@@ -36,7 +36,6 @@
 
 <!-- CSS | Theme Color -->
 <link href="{{asset('css/colors/theme-skin-red.css')}}" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="{{asset('tel/build/css/intlTelInput.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -64,9 +63,8 @@
                 </div>
               </div>
                 <div class="row">
-                  <h4 class="text-theme-colored mt-0" style="width:100%"> Login</h4>
+                  <h4 class="text-theme-colored mt-0" style="margin-left:220px"> Login</h4>
                   <hr/>
-                  <p>Welcome To VIP Kindly Login</p>
                 </div>
                 <form action="{{ route('post_login') }}" name="login-form" class="clearfix" method="post">
                   {{ csrf_field() }}
@@ -98,14 +96,14 @@
                   @endif
                   <div class="row">
                     <div class="form-group col-md-12">
-                      <label for="form_username_email">Username/Email</label>
-                      <input id="form_username_email" name="email" class="form-control" type="text">
+                      <label for="form_username_email">Email</label>
+                      <input id="form_username_email" name="email" class="form-control" type="text" placeholder="email">
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_password">Password</label>
-                      <input id="form_password" name="password" class="form-control" type="password">
+                      <input id="form_password" name="password" class="form-control" type="password" placeholder="password">
                     </div>
                   </div>
                   <div class="checkbox pull-left mt-15">
@@ -148,35 +146,6 @@
 </div>
 <!-- end wrapper -->
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-theme-colored text-center" id="myModalLabel">General Terms And Conditions</h4>
-      </div>
-      <div class="modal-body">
-        <div class="col-md-12">
-          <ul class="list-icon font theme-colored rounded">
-            <li><i class="fa fa-hand-o-right"></i>Prospective Investor must be above the age of 18 years, although investment can be purchased and held on behalf of a minor.</li>
-            <li><i class="fa fa-hand-o-right"></i>Prospective Investor can invest in either Equity or Debt or both at the same time.</li>
-            <li><i class="fa fa-hand-o-right"></i>The minimum investment for the debt is N3m for 1ha and maximum investment is N3b for 1000ha.</li>
-            <li><i class="fa fa-hand-o-right"></i>Each investor is at liberty to visit the field and inspect the progress of work at the site at anytime.</li>
-            <li><i class="fa fa-hand-o-right"></i>Repayment of Principal invested and interest is at the end of the 12 Months period from the date on the certificate.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal" id="modal_button">Accept</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
 
 <!-- external javascripts -->
 <script src="{{asset('js/jquery-2.2.0.min.js')}}"></script>
@@ -185,21 +154,6 @@
 <!-- JS | jquery plugin collection for this theme -->
 <script src="{{asset('js/jquery-plugin-collection.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
-<script src="{{asset('tel/build/js/intlTelInput.min.js')}}"></script>
-<script>
-  $("#demo").intlTelInput();
-  var extension = $("#demo").intlTelInput("getExtension");
-  console.log(extension);
-  $("#demo").intlTelInput("loadUtils", "lib/libphonenumber/build/utils.js");
- </script>
- <script>
-   var button =document.getElementById("submit");
-   button.disabled = true;
-   var checkbox = document.getElementById("form_checkbox");
-   checkbox.onchange = function() {
-     button.disabled = !this.checked;
-   }
- </script>
 
 </body>
 </html>
