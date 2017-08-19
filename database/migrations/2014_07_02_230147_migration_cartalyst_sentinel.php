@@ -46,9 +46,8 @@ class MigrationCartalystSentinel extends Migration
             $table->integer('user_id')->unsigned();
             $table->string('code');
             $table->timestamps();
-
             $table->engine = 'InnoDB';
-            $table->unique('code');
+            //$table->unique('code');
         });
 
         Schema::create('reminders', function (Blueprint $table) {
@@ -70,7 +69,7 @@ class MigrationCartalystSentinel extends Migration
             $table->timestamps();
 
             $table->engine = 'InnoDB';
-            $table->unique('slug');
+            //$table->unique('slug');
         });
 
         Schema::create('role_users', function (Blueprint $table) {
@@ -118,7 +117,7 @@ class MigrationCartalystSentinel extends Migration
             $table->timestamps();
 
             $table->engine = 'InnoDB';
-            $table->unique('email');
+           // $table->unique('email');
         });
     }
 
